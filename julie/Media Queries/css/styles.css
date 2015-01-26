@@ -1,0 +1,35 @@
+.col{
+    color:#fff;
+		float:left;
+		margin:1%;
+		width: 46%;
+}
+.one{
+  background-color: #e95b33;
+}
+
+.two{
+  background-color: #40b7d7;
+}
+.three{
+	background-color:#000000;
+	color:#ffffff;
+	width: 20%;
+	margin: 5%;
+}
+
+	@media screen and (max-width: 100px) { 
+		.three{
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 600px) { 
+		.col{
+				float: none;
+				margin:0;
+				width: 100%;
+			}
+		}

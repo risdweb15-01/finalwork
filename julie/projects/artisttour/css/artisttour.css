@@ -1,0 +1,160 @@
+
+div{
+	font-family: 'Arvo', serif;
+	background:;
+	width:1410px;
+	height:950px;
+	z-index: -1;
+}
+
+h1{
+	background:white;
+	width:590px;
+	height:90px;
+	color:black;
+	z-index: 5;
+	font-family: 'Arvo', serif;
+	font-size: 70px;
+	text-align: center;
+	position: fixed;
+	top:320px;
+	left:400px;
+
+}
+
+
+.int_confed{
+position:fixed;
+left:50px;
+top:20px;
+
+}
+
+.pm{
+position:fixed;
+left:130px;
+top:80px;
+
+}
+
+.aa{
+left:210px;
+top:140px;
+position:fixed;
+
+
+
+}
+
+.aww{
+
+left:290px;
+top:200px;
+position:fixed;
+
+
+}
+
+.aiga{
+
+left:370px;
+top:260px;
+position:fixed;
+
+
+}
+
+
+
+
+
+.hp{
+
+left:680px;
+top:260px;
+position:fixed;
+
+
+}
+
+.sugi{
+
+left:760px;
+top:320px;
+position:fixed;
+
+}
+
+
+.bns{
+
+left:840px;
+top:380px;
+position:fixed;
+}
+
+.nada{
+
+left:920px;
+top:440px;
+position:fixed;
+
+}
+
+.only{
+
+left:1000px;
+top:500px;
+position:fixed;
+
+
+}
+
+
+
+
+
+
+
+
+.ph{
+
+left:750px;
+top:25px;
+position:fixed;
+
+
+
+}
+
+.stat{
+
+left:1100px;
+top:25px;
+position:fixed;
+
+}
+
+
+
+
+.whit{
+
+left:370px;
+top:520px;
+position:fixed;
+z-index: 4;
+}
+
+.yale{
+
+left:60px;
+top:520px;
+position:fixed;
+z-index: 5;
+}
+
+
+
+
+

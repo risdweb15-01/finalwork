@@ -1,0 +1,279 @@
+body {
+	background-color: #ffffff;
+}
+
+.box{
+			position:absolute;
+			left: 230px;
+			top:150px;
+			width:1000px;
+   			height:3000px;
+    		background:rgb(255,123,172);
+    		opacity: 0.2;
+
+
+
+
+
+}
+
+.textbox{	position:absolute;
+			left:870px;
+			top:430px;
+			width:200px;
+   			height:850px;
+    		background:white;
+    		z-index: 0;
+    		color:rgb(144,144,144);
+            font-family: Georgia;
+            font-size: 15px;
+            padding: 30px;
+            padding-top: 10px;
+            line-height: 17px;
+
+
+}
+
+
+.textbox2{	position:absolute;
+			left:870px;
+			top:1400px;
+			width:200px;
+   			height:860px;
+    		background:white;
+    		z-index: 0;
+    		color:rgb(144,144,144);
+            font-family: Georgia;
+            font-size: 15px;
+            padding: 30px;
+            padding-top: 10px;
+            line-height: 17px;
+
+}
+
+.textbox3{	position:absolute;
+			left:170px;
+			top:1200px;
+			width:200px;
+   			height:730px;
+    		background:white;
+    		z-index: 0;
+    		color:rgb(144,144,144);
+            font-family: Georgia;
+            font-size: 15px;
+            padding: 30px;
+            padding-top: 10px;
+            line-height: 17px;
+
+}
+
+.textbox4{	position:absolute;
+			left:1050px;
+			top:2350px;
+			width:190px;
+   			height:545px;
+    		background:white;
+    		z-index: 0;
+    		color:rgb(144,144,144);
+            font-family: Georgia;
+            font-size: 15px;
+            padding: 28px;
+            padding-top: 10px;
+            line-height: 17px;
+
+}
+
+em{
+
+			font-style: italic; font-weight:bold;
+}
+
+.boxmodel{
+
+			
+			position:relative;
+			top:40px;
+            left:450px;
+            font-size: 53px;
+            font-family: Georgia;
+            font-style: italic;  
+             line-height: 60px;    
+
+}
+
+.boxmodel2{
+
+			
+			position:relative;
+			top:2100px;
+            left:140px;
+            font-size: 33px;
+            font-family: Georgia;
+            font-style: italic; 
+            line-height: 42px;
+            color:black;
+
+
+}
+
+.outsidetop{
+				font-family: Georgia;
+            	font-style: italic; font-weight:bold;
+            	font-size: 30px
+				color:black;
+				position: fixed;
+				left:695px;
+				top:10px;
+				z-index: 1;
+}
+
+.outsideright{
+				font-family: Georgia;
+            	font-style: italic; font-weight:bold;
+            	font-size: 30px
+				color:black;
+				position: fixed;
+				left:1360px;
+				top:400px;
+				transform: rotate(90deg);
+				z-index: 1;
+}
+
+
+.outsideleft{
+				font-family: Georgia;
+            	font-style: italic; font-weight:bold;
+            	font-size: 30px
+				color:black;
+				position: fixed;
+				left:20px;
+				top:400px;
+				transform: rotate(-90deg);
+				z-index: 1;
+}
+
+
+.outsidebottom{
+				font-family: Georgia;
+            	font-style: italic; font-weight:bold;
+            	font-size: 30px
+				color:black;
+				position: fixed;
+				left:695px;
+				top:700px;
+				transform: rotate(-180deg);
+				bottom:20px;
+				z-index: 1;
+}
+
+
+.rotate10{
+				transform:rotate(5deg);
+				position:fixed;
+				left:50px;
+				top:100px;
+				z-index: 1;
+
+}
+
+.rotate30{
+				transform:rotate(90deg);
+				position:fixed;
+				left:1050px;
+				top:400px;
+				z-index: 1;
+
+}
+
+.rotate50{
+				transform:rotate(-115deg);
+				position:absolute;
+				left:100px;
+				top:950px;
+				z-index: 1;
+
+}
+
+.rotate80{
+				transform:rotate(160deg);
+				position:absolute;
+				left:1000px;
+				top:1450px;
+				z-index: 1;
+
+}
+
+.rotate90{
+				transform:rotate(-170deg);
+				position:absolute;
+				left:450px;
+				top:2050px;
+				z-index: 1;
+
+}
+
+
+.cara1{
+				transform: scale(0.85);
+				position:absolute;
+				left:60px;
+				top:390px;
+
+}
+
+.cara4{
+				transform: scale(0.45);
+				position:absolute;
+				left:245px;
+				top:850px;
+
+}
+
+
+.cara5{
+				transform: scale(0.45);
+				position:absolute;
+				left:245px;
+				top:1200px;
+
+
+}
+
+
+.cara6{
+				transform: scale(0.45);
+				position:absolute;
+				left:245px;
+				top:1540px;
+
+}
+
+
+.cara3{
+				transform: scale(1.5);
+				position:absolute;
+				left:200px;
+				top:2100px;
+
+}
+
+
+.cara2{
+				transform: scale(0.8);
+				position:absolute;
+				left:200px;
+				top:2400px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
