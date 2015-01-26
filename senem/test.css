@@ -1,0 +1,68 @@
+body {
+  text-align:center;
+  font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #888;
+}
+h1 {
+  font-weight: normal;
+}
+.item { 
+  position: relative;
+  display: inline-block;
+  padding: 12px 12px 6px;
+  background: #F2F2F2;
+  border: 1px solid #EEE;
+  vertical-align:top;
+  overflow: hidden;
+}
+figure img {
+  display: block
+}
+figcaption {
+  display: block;
+  padding: 12px 0 0;
+}
+.overlay {
+  position: absolute;
+  top: 100%; left:0; right: 0; bottom: 0;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  opacity: 0;
+}
+.overlay, .overlay span {
+  transition: top .5s, opacity .7s, margin-top .8s;
+}
+.overlay span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0 20px;
+  margin-top: 120px; /* for the animation */
+  color: #F2F2F2;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  word-wrap:break-word;
+  line-height: 1;
+  opacity: 0;
+}
+.overlay span:before {
+  content: "";
+  display:inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 1px;
+}
+.item:hover .overlay,
+.overlay:focus {
+  top: 0;
+  opacity: 1;
+}
+.item:hover .overlay span,
+.overlay:focus span {
+  opacity: 1;
+  margin-top: 0; /* for the animation */
+}
+
+  margin-bottom: 20px;
+}

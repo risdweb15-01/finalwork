@@ -1,0 +1,404 @@
+body{
+	background-color: white;
+}
+
+.container{
+	position: center;
+	width: 1200px;
+	height: 5600px;
+	background-color: white;
+	margin-top: 0px;
+	margin-left: 130px;
+}
+
+.titlepaola{
+	text-align: right;
+	width: 200px;
+	height: 60px;
+	color:blue;
+	position:absolute;
+	margin-left: 244px;
+	margin-top: 205px;
+	font-family:Avenir, bold;
+	font-size: 57px;
+}
+
+.titlepinterview{
+	text-align: right;
+	width: 150px;
+	height: 150px;
+	color:blue;
+	position:absolute;
+	margin-left: 296px;
+	margin-top: 448px;
+	font-family:Avenir;
+	font-size: 57px;
+}
+
+.textbox{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 290px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_int{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 850px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_2{
+	position: absolute;
+	width: 240px;
+	margin-left: 55px;
+	margin-top: 1340px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_3{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 1680px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_4{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 2020px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_5{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 2330px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_6{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 2650px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_7{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 2890px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_8{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 3545px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+.textbox_int_9{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 4045px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_10{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 4420px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_int_11{
+	position: absolute;
+	width: 250px;
+	margin-left: 45px;
+	margin-top: 4620px;
+	font-family:Avenir;
+	font-weight: bold;
+	text-align: right;
+}
+
+.textbox_paola{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 1000px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_2{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 1500px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_3{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 1790px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_4{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 2140px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_5{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 2460px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_6{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 2780px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_7{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 3050px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_8{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 3680px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_9{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 4170px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_10{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 4540px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.textbox_paola_11{
+	position: absolute;
+	z-index:1;
+	width: 600px;
+	margin-left: 470px;
+	margin-top: 4770px;
+	font-family:Avenir;
+	text-align: left;
+}
+
+.eyes{
+	position:fixed;
+	z-index:2;
+	margin-left: 470px;
+	margin-top: 120px;
+}
+
+.img1{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 740px;
+}
+
+.img2{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 1020px;
+}
+
+.img3{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 1240px;
+}
+
+.img4{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 1450px;
+}
+
+.img5{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 1670px;
+}
+
+.img6{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 1900px;
+}
+
+.img7{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 2110px;
+}
+
+.img8{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 2320px;
+}
+
+.img9{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 2540px;
+}
+
+.img10{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 2750px;
+}
+
+.img11{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 2960px;
+}
+
+.img12{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 3170px;
+}
+
+.img13{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 3380px;
+}
+
+.img14{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 3590px;
+}
+
+.img15{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 3800px;
+}
+
+.img16{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 4010px;
+}
+
+.img17{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 4220px;
+}
+
+.img18{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 4430px;
+}
+
+.img19{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 4640px;
+}
+
+.img20{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 4850px;
+}
+
+.img21{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 5060px;
+}
+
+.img22{
+	position:absolute;
+	margin-left: 315px;
+	margin-top: 5330px;
+}
