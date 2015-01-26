@@ -1,0 +1,96 @@
+#bigboxred{
+	height:700px;
+	width:1200px;
+	background-color:red;
+	
+}
+#bigboxwhite{
+	height:670px;
+	width:380px;
+	background-color:white;
+	float:left;
+	margin-top:15px;
+	margin-left:15px;
+
+}
+#container1_box1{
+	height:665.8px;
+	width:45.25px;
+	background-color:white;
+	margin-top:2px;
+	margin-left:2px;
+	float:left;
+}
+
+#container3_box1{
+	height:665.8px;
+	width:92.5px;
+	background-color:white;
+	margin-top:2px;
+	margin-left:2px;
+	float:left;
+
+}
+#container3_box2{
+	height:665.8px;
+	width:92.5px;
+	background-color:white;
+	margin-top:2px;
+	margin-left:2px;
+	float:left;
+
+}
+#redvertical_small{
+	height:93.4px;
+	width:45.25px;
+	background-color:red;
+	margin-bottom:2px;
+}
+#redvertical_small_float{
+	height:93.4px;
+	width:45.25px;
+	background-color:red;
+	margin-bottom:2px;
+	margin-right:2px;
+	float:left;
+}
+#redvertical_small_float2{
+	height:93.4px;
+	width:45.25px;
+	background-color:red;
+	margin-bottom:2px;
+	float:left;
+}
+#redvertical_medium{
+	height:188.8px;
+	width:45.25px;
+	background-color:red;
+	margin-bottom:2px;
+}
+#redvertical_medium_float{
+	height:188.8px;
+	width:45.25px;
+	background-color:red;
+	margin-bottom:2px;
+	margin-right:2px;
+	float:left;
+}
+#redvertical_medium_float2{
+	height:188.8px;
+	width:45.25px;
+	background-color:red;
+	margin-bottom:2px;
+	float:left;
+}
+#redvertical_large{
+	height:188.8px;
+	width:92.5px;
+	background-color:red;
+	margin-bottom:2px;
+	float:left;
+}#redvertical_xlarge{
+	height:284.2px;
+	width:92.5px;
+	background-color:red;
+	margin-bottom:2px;
+	float:left;

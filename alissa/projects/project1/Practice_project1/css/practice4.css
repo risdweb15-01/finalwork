@@ -1,0 +1,137 @@
+#blackbox{
+	height:30px;
+	width:30px;
+	background-color:black;
+
+}
+
+#blackbox2{
+	height:30px;
+	width:30px;
+	background-color:black;
+	float:left;
+	border:5px solid white;
+	margin-left:15px;
+
+}
+
+
+#box1{
+	width:1200px;
+	height:600px;
+	background-color:pink;
+}
+
+#column1{
+	width:480px;
+	height:370px;
+	float:left;
+}
+
+.jon{
+	width:480px;
+	height:360px;
+
+	
+}
+
+.space{
+	width:10px;
+	height:10px;
+	background-color:white;
+}
+#space2{
+	width:700px;
+	height:75px;
+	background-color:green;
+	float:left;
+	position:relative;
+}
+
+#column2{
+	width:700px;
+	height:80px;
+	font-family:'MONTSERRAT', sans-serif;
+	font-style:bold;
+	font-style:italic;
+	font-size: 60px;
+	float:left;
+	padding-left:20px;
+	overflow:hidden;
+	background-color:white;
+}
+
+#column3{
+	width:600px;
+	height:50px;
+	font-family:'open sans' sans-serif;
+	font-size:18px;
+	font-style:bold;
+	float:left;
+	padding:20px;
+	background-color:yellow;
+}
+
+#column4{
+	width:680px;
+	height:20px;
+	font-family:'open sans' sans-serif;
+	font-size:16px;
+	padding-left:20px;
+	float:left;
+	background-color:white;
+}
+
+#column5{
+	height:400px;
+	width:700px;
+	background-color:black;
+	float:left;
+	border:5px solid white;
+}
+
+.blackbox3{
+	width:30px; 
+	height:30px; 
+	background-color: red;
+
+
+} 
+.blackbox3:hover .h{
+	opacity:1.0;
+	width:30px; 
+	height:30px;
+	background: url (http://mixingreality.com/wp-content/uploads/2011/04/Jonathan-Harris.jpg);
+} 
+
+#container5{
+	height:302px;
+	width:380px;
+	background-color:white;
+	border:5px white white;
+	float:left;
+	
+}
+
+
+.bb{ 
+	width:30px; 
+	height:20px; 
+	border:5px solid blue;
+	background-color:pink; 
+}
+.img{ 
+		
+		background:grey; 
+		opacity:0; } 
+	
+
+	.bb:hover .img{
+		opacity:1.0; 
+		width:480px; 
+		height:280px;
+		background: url(http://mixingreality.com/wp-content/uploads/2011/04/Jonathan-Harris.jpg) no-repeat; 
+	} 
+
+
+

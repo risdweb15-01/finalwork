@@ -1,0 +1,39 @@
+p{
+	color:blue;
+	font-family: Georgia;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+body{
+	background-color:rgb( 200,100,50);
+}
+
+ul{
+	text-align: center;
+	font-family: ;
+
+}
+
+h1{
+	color:blue;
+}
+
+#hey {
+	background-color: #ffffff;
+	width: 400px;
+	height: 400px;
+}
+
+#hey p {
+	color: #f08080;
+}
+
+img{
+
+}
+ul li{
+	list-style: none;
+	text-decoration: nones;
+}

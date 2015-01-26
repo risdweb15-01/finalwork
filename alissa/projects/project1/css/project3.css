@@ -1,0 +1,91 @@
+/*
+img{
+	float:right;
+	width:100%;
+	height:auto;
+	opacity:0.4;
+}
+img:hover{
+	opacity:1.0;
+}
+
+.img2{ 
+	opacity:0.7;
+}
+
+.img2:hover{
+	opacity:1.0;
+}
+
+.img3{
+	opacity:0.7;
+}
+.img3:hover{
+	opacity:1.0;
+}
+
+
+
+.box{
+	/*
+	height:400px;
+	width:200px;
+	*/
+	display: block;
+	opacity: 0.5;
+}
+
+#container{
+	width:500px; 
+		height:400px; 
+		background-color:pink;
+}
+
+.blackbox{ 
+	width:30px; 
+	height:20px; 
+	border:5px solid blue;
+	background-color:red; 
+}
+.img{ 
+		
+		background:grey; 
+		opacity:0; } 
+	
+
+	.blackbox:hover .img{
+		opacity:1.0; 
+		width:480px; 
+		height:280px;
+		background: url(http://mixingreality.com/wp-content/uploads/2011/04/Jonathan-Harris.jpg) no-repeat; 
+	} 
+
+	.blackbox:hover .text{
+		opacity:0.6; 
+		text-align:justify; 
+		color:#000000; 
+		font-size:20px; 
+		font-weight:700; 
+		font-family:"Times New Roman", Times, serif; 
+		padding:30px; 
+	} 
+
+
+.blackbox2{ 
+	width:400px; 
+	height:217px; 
+	background-color:pink; 
+}
+
+	.img{ 
+		width:340px; 
+		height:217px; 
+		background:grey; 
+		opacity:0; } 
+
+	.blackbox2:hover .img{
+		opacity:1.0; 
+		width:340px; 
+		height:217px; 
+		background: url(http://mixingreality.com/wp-content/uploads/2011/04/Jonathan-Harris.jpg); 
+	} 

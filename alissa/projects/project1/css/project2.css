@@ -1,0 +1,68 @@
+#container{
+	height:400px;
+	width:1400px;
+	background-color:grey;
+
+}
+.googlebox{
+	height:150px;
+	width:600px;
+	position:absolute;
+	clear:left;
+
+}
+.textbox{
+	height:150px;
+	width:200px;
+	position:relative;
+	float:left;
+
+}
+.textbox2{
+	height:150px;
+	width:200px;
+	position:relative;
+	float:left;
+
+}
+#container2{
+	height:100px;
+	width:1200px;
+	background-color:pink;
+
+}
+.pulse{
+	height:100px;
+	width:100px;
+	background-color: red;
+	padding-left:300px;
+}
+
+.mydiv{
+	background-color:lightblue;
+	width:1200px;
+	height:400px;
+
+}
+.myimage{
+	float:left;
+	width:700px;
+	height:300px;
+	margin:5px;
+	border:10px solid lightblue;
+
+}
+.hello{
+	width:200px;
+	height:250px;
+	float:left;
+	border:10px solid lightblue;
+	background-color:white;
+}
+.hello2{
+	width:200px;
+	height:250px;
+	float:left;
+	border:10px solid lightblue;
+}
+

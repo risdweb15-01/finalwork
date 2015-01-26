@@ -1,0 +1,11 @@
+p{
+	font-family:'times new roman';
+	font-size:50px;
+	font-style:bold;
+
+}
+
+li{
+	text-indent:10px;
+	list-style-type:square;
+}

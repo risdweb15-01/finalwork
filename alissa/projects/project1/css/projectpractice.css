@@ -1,0 +1,167 @@
+#container{
+	width:500px; 
+		height:400px; 
+		background-color:pink;
+}
+
+.blackbox{ 
+	width:30px; 
+	height:20px; 
+	border:5px solid blue;
+	background-color:red; 
+}
+.img{ 
+		
+		background:grey; 
+		opacity:0; } 
+	
+
+	.blackbox:hover .img{
+		opacity:1.0; 
+		width:480px; 
+		height:280px;
+		background: url(http://mixingreality.com/wp-content/uploads/2011/04/Jonathan-Harris.jpg) no-repeat; 
+	} 
+
+	
+
+.blackbox2{ 
+	width:30px; 
+	height:20px; 
+	background-color:green;
+	border: 5px solid white;
+}
+
+.text{ 
+		width:340px; 
+		height:217px; 
+		background:#FFF; 
+		opacity:0; 
+} 
+
+.blackbox2:hover .text{
+		opacity:0.6; 
+		text-align:justify; 
+		color:#000000; 
+		font-size:20px; 
+		font-weight:700; 
+		font-family:"Times New Roman", Times, serif; 
+		padding:30px; 
+	} 
+
+	#jon{
+	height:300px;
+	width:500px;
+	background-color:pink;
+	border:5px white solid;
+	clear:left;
+}
+
+#contain{
+	height:380px;
+	width:520px;
+	background-color:white;
+}
+
+#container1{
+	height:380px;
+	width:40px;
+	background-color: lightblue;
+	border:1px solid blue;
+	position:relative;
+	float:left;
+}
+
+#container2{
+	height:380px;
+	width:40px;
+	background-color: pink;
+	border:1px solid blue;
+	position:relative;
+	float:left;
+}
+
+#container3{
+	height:380px;
+	width:40px;
+	background-color: pink;
+	border:1px solid blue;
+	float:left;
+	position:relative;
+}
+
+#container4{
+	height:88px;
+	width:40px;
+	background-color: pink;
+	border:1px solid blue;
+	float:left;
+	position:relative;
+}
+
+#container5{
+	height:285px;
+	width:380px;
+	background-color:white;
+	border:5px white white;
+	float:left;
+	
+}
+
+#container6{
+	width:500px; 
+	height:700px; 
+	background-color:grey;
+	clear:both;
+
+}
+
+.box1{
+	margin-left:auto;
+	margin-right:auto;
+	height:20px;
+	width:30px;
+	background-color: black;
+	border: 5px solid white;
+
+
+}
+
+.box2{
+	height:20px;
+	width:30px;
+	background-color: black;
+	border: 5px solid white;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.boxwhite{
+	height:20px;
+	width:30px;
+	background-color:red;
+	border:5px solid white;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.boxwhite2{
+	height:20px;
+	width:30px;
+	background-color:red;
+	border:5px solid white;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+
+
+.box3{
+	height:30px;
+	width:50px;
+	background-color: black;
+	clear:both;
+	border: 5px solid white;
+}

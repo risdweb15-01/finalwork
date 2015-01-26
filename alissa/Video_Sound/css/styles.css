@@ -1,0 +1,23 @@
+.col{
+	color:black;
+	float:left;
+	margin:2%;
+	width:46%;
+}
+
+.one{
+	background-color:lightpink;
+}
+
+.two{
+	background-color:lightgrey;
+
+}
+
+@media screen and (max-width:600px){
+	.col{
+		float:none;
+		margin:0;
+		width:100%;
+	}
+}

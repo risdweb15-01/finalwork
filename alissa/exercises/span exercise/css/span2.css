@@ -1,0 +1,41 @@
+body {
+	background-color: pink;
+}
+p {
+	color: white;
+	text-align: center;
+
+}
+#hello {
+	color: red;
+}
+
+#green {
+	color:green;
+}
+
+#orange {
+	color: orange;
+}
+
+.box1{
+	width:800px;
+	height:800px;
+	background-color: blue;
+	position: relative;
+	margin: auto;
+}
+.boxmodel {
+	width: 700px;
+	height: 700px;
+	padding-top: 30px;
+	border: 2px dashed #ffffff;
+	margin: auto auto auto auto;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	position: relative;
+	top:0;
+	left:0;
+	height:190px;
+	overflow: hidden;
+}

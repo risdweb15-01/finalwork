@@ -1,0 +1,32 @@
+body    {  
+  background:#e7e7e7;
+}
+
+.box    {  
+  width:300px;
+  height:200px;
+  margin:5% auto 0 auto; 
+  background:url(../images/grumpylady.png);
+  background-size:cover;
+}
+
+.overlay    {  
+  background:rgba(0,0,0,.75);
+  text-align:center;
+  padding: 45px 0 66px 0;
+  opacity:0;
+  height:90px;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
+
+.projecttitle       {  
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 40px;
+}
+
