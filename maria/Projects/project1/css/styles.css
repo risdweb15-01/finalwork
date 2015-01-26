@@ -1,0 +1,586 @@
+
+
+
+#container{
+	width:800px;
+	height:7200px;
+	margin:auto;
+	border:20px solid black;
+	
+	}
+
+	.titlepic{
+		width:600px;
+		height:400px;
+		position:relative;
+		top:0px;
+		left:0px;
+		
+    }
+
+    .title{
+    	color: #67e300;
+    	font-family: 'PT Sans Narrow', sans-serif;
+    	font-size: 45px;
+    	line-height: 1.8em;
+    	font-weight: 400;
+    	position:absolute;
+    	top:250px;
+    	left:5px;
+
+    }
+    
+    .subtitle{
+    	color: #67e300;
+    	font-family: 'PT Sans Narrow', sans-serif;
+    	font-size: 28px;
+    	line-height: 1.2em;
+    	font-weight: 400;
+    	position:absolute;
+    	top:440px;
+    	left:5px;
+    }
+
+    .premise{
+    	width:700px;
+    	height:377px;
+    	padding:20px;
+    	color: black;
+    	background-color: white;
+    	border: 5px dotted black;
+    	font-family: 'PT Sans Narrow', sans-serif;
+    	font-size: 20px;
+    	line-height: 1.4em;
+    	text-align:left;
+    	text-indent: 2px;
+    	font-weight: 400;
+    	position:relative;
+    	top:240px;
+    	left:30px;
+
+    }
+
+
+
+    .firstq{
+    	width:370px;
+    	height:345px;
+    	padding:2px;
+    	color:#67e300 ;
+    	background-color: white;
+    	border:5px dotted #d9d9df;
+    	font-family: 'PT Sans Narrow', sans-serif;
+    	font-size: 62px;
+    	line-height: 1em;
+    	text-align:center;
+    	text-indent: 2px;
+    	font-weight: 700;
+    	position:relative;
+    	top:0px;
+        left:-5px;
+
+    }
+
+    .firsta{
+    	width:325px;
+    	height:320px;
+    	padding:20px;
+    	color:black ;
+    	background-color: #d9d9df;
+    	font-family: 'PT Sans Narrow', sans-serif;
+    	font-size: 20px;
+    	line-height: 1.3em;
+    	text-align:left;
+    	text-indent: 2px;
+    	font-weight: 400;
+    	position:relative;
+        top:-359px;
+        left:380px;
+    }
+
+    #container2{
+    	width:730px;
+		height:400px;
+		
+		margin-top:60px;
+		position:relative;
+		top:30px;
+		left:-20px;
+    }
+
+
+
+    
+    .seconda{
+    	width:347px;
+    	height:340px;
+    	padding:20px;
+    	padding-top: 7px;
+    	color:black ;
+    	background-color: #d9d9df;
+    	font-family: 'PT Sans Narrow', sans-serif;
+    	font-size: 20px;
+    	line-height: 1.3em;
+    	text-align:left;
+    	text-indent: 2px;
+    	font-weight: 400;
+    	position:relative;
+        top:-776px;
+        left:15px;
+    }
+
+    .secondq{
+    	width:350px;
+    	height:355px;
+    	padding-top:2px;
+    	color:#67e300 ;
+    	background-color: white;
+    	border:5px dotted #d9d9df;
+    	font-family: 'PT Sans Narrow', sans-serif;
+    	font-size: 62px;
+    	line-height: 1em;
+    	text-align:center;
+    	text-indent: 2px;
+    	font-weight: 700;
+    	position:relative;
+    	top:-410px;
+        left:405px;
+
+    }
+
+
+    #container2{
+    	width:730px;
+		height:400px;
+		
+		margin-top:60px;
+		position:relative;
+		top:30px;
+		left:-20px;
+    }
+
+    .prettywoman{
+        width:700px;
+        height:500px;
+        padding:20px;
+        left-padding:5px;
+        bottom-padding:10px;
+        background-color:white;
+        border:5px dotted black;
+        position:relative;
+        top: -740px;
+        left: 14px;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 700;
+
+    }
+
+
+
+     
+
+        .thirdq{
+        width:360px;
+        height:340px;
+        padding-bottom:30px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:580px;
+        left:-5px;
+
+    }
+
+     .thirda{
+        width:340px;
+        height:352px;
+        padding:20px;
+        padding-top: 7px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:580px;
+        left:365px;
+    }
+
+
+    .littleemma{
+         width:700px;
+        height:400px;
+        padding:20px;
+        left-padding:5px;
+        bottom-padding:10px;
+        background-color:white;
+        border:5px dotted black;
+        position:relative;
+        top: 440px;
+        left: -25px;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .quote2{
+        width:400px;
+        height:390px;
+        padding:10px;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1.2em;
+        font-weight: 700;
+        position:relative;
+       top:-450px;
+       left:280px;
+
+
+    }
+
+
+  .fourthq{
+        width:360px;
+        height:291px;
+        padding-bottom:30px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:1490px;
+        left:-5px;
+
+    }
+
+     .fourtha{
+        width:340px;
+        height:305px;
+        padding:20px;
+        padding-top: 7px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:1490px;
+        left:365px;
+    }
+
+
+
+  .fifthq{
+        width:330px;
+        height:291px;
+        padding-bottom:30px;
+        padding:20px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:1860px;
+        left:366px;
+
+    }
+
+     .fiftha{
+        width:330px;
+        height:312px;
+        padding:20px;
+        padding-top: 7px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:1860px;
+        left:-5px;
+    }
+
+
+    .bling{
+         width:700px;
+        height:400px;
+        padding:20px;
+        left-padding:5px;
+        bottom-padding:10px;
+        background-color:white;
+        border:5px dotted black;
+        position:relative;
+        top: 1230px;
+        left: -25px;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 700;
+    }
+
+    .blingpic{
+         position:relative;
+        top: 0px;
+        left: 450px;
+    }
+
+
+    .quote3{
+         width:400px;
+        height:390px;
+        padding:10px;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 55px;
+        line-height: 1.2em;
+        font-weight: 700;
+        position:relative;
+       top:-400px;
+       left:15px;
+    }
+
+
+
+  .sixthq{
+        width:330px;
+        height:291px;
+        padding-bottom:30px;
+        padding:20px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:2730px;
+        left:366px;
+
+    }
+
+     .sixtha{
+        width:330px;
+        height:312px;
+        padding:20px;
+        padding-top: 7px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:2730px;
+        left:-5px;
+    }
+
+
+    .seventhq{
+        width:330px;
+        height:315px;
+        padding-bottom:30px;
+        padding:20px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:3115px;
+        left:-5px;
+
+    }
+
+     .seventha{
+        width:330px;
+        height:345px;
+        padding:20px;
+        padding-top:0px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:3115px;
+        left:375px;
+    }
+
+
+
+  .eigthq{
+        width:330px;
+        height:291px;
+        padding-bottom:30px;
+        padding:20px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:3520px;
+        left:366px;
+
+    }
+
+     .eigtha{
+        width:330px;
+        height:312px;
+        padding:20px;
+        padding-top: 7px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:3520px;
+        left:-5px;
+    }
+
+
+    .emma1{
+        width:700px;
+        height:600px;
+        padding:20px;
+        left-padding:5px;
+        bottom-padding:10px;
+        background-color:white;
+        border:5px dotted black;
+        position:relative;
+        top: 2450px;
+        left: -25px;
+        font-family:'PT Sans Narrow', sans-serif;
+        font-size: 30px;
+        line-height: 1.2em;
+        font-weight: 700;
+
+    }
+
+
+        .ninthq{
+        width:330px;
+        height:250px;
+        padding-bottom:30px;
+        padding:20px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:4600px;
+        left:-5px;
+
+    }
+
+     .nintha{
+        width:330px;
+        height:280px;
+        padding:20px;
+        padding-top:0px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:4600px;
+        left:375px;
+    }
+
+
+
+  .tenthq{
+        width:330px;
+        height:200px;
+        padding-bottom:30px;
+        padding:20px;
+        color:#67e300 ;
+        background-color: white;
+        border:5px dotted #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 50px;
+        line-height: 1em;
+        text-align:center;
+        text-indent: 2px;
+        font-weight: 700;
+        position:absolute;
+        top:4950px;
+        left:366px;
+
+    }
+
+     .tentha{
+        width:330px;
+        height:222px;
+        padding:20px;
+        padding-top: 7px;
+        color:black ;
+        background-color: #d9d9df;
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-size: 20px;
+        line-height: 1.3em;
+        text-align:left;
+        text-indent: 2px;
+        font-weight: 400;
+        position:absolute;
+        top:4950px;
+        left:-5px;
+    }
+

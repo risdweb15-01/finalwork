@@ -1,0 +1,139 @@
+body{
+ background-color:black;
+}  
+
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:active{
+	color:gray;
+}
+
+h1{
+	color:white;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#container{
+	width:1400px;
+	height:2000px;
+	position:relative;
+	background-color: white;
+    border: 10px solid black;
+
+}
+
+.menuline{
+	width:1320px;
+	height:2px;
+	background-color:gray;
+	opacity:0.4;
+	position:relative;
+	top:100px;
+	left:40px;
+}
+
+
+.logo-bar{
+	width:1400px;
+	height:120px;
+	color: gray;
+	background-color: white;
+    position:relative;
+    top:0px;
+    left:0px;
+    font-family:helvetica;
+    font-size: 40px;
+}
+
+.logo{
+	position:absolute;
+    top:40px;
+    left:40px;
+    font-family:helvetica;
+    font-size: 40px;
+}
+
+
+.work{
+	width:100px;
+	height:50px;
+	color: black;
+	background-color: white;
+    position:absolute;
+    top:30px;
+    left:1050px;
+    font-family:helvetica;
+    font-size: 20px;
+}
+
+
+ 
+
+.droplist{
+	position:relative;
+	top:0px;
+	left:-40px;
+  font-family:helvetica;
+  font-size: 15px;
+ 
+}
+
+
+.work:hover .droplist ul {
+  opacity: 1;
+
+
+
+
+.house{
+	width:500px;
+	height:400px;
+	position:absolute;
+    top:300px;
+    left:40px;
+    
+}
+
+
+.box1    {  
+  width:500px;
+  height:350px;
+  position:relative;
+  top:100px;
+  left:90px;
+
+}
+
+.overlay1{
+	background:rgba(1,26,33,.60);
+  text-align:center;
+  color:white;
+  padding: 45px 0 66px 0;
+  opacity:0;
+  height:230px;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+
+.box1:hover .overlay1 {
+  opacity: 1;
+}
+
+
+.title1       {  
+  font-family: Helvetica;
+  color: white;
+  font-size: 30px;
+  position:relative;
+  top:55px;
+  left:0px;
+}
+
