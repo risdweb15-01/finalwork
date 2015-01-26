@@ -1,0 +1,213 @@
+
+
+body{
+	background-color: black;
+}
+
+
+#table{
+	position:fixed;
+	padding-left: 100px;
+	width:1510px;
+	height:100px;
+	z-index:1;
+	background-color: black;
+	
+}
+
+
+
+.header{
+	width:100px;
+	height:50px;
+	background-color: white;
+	position: fixed;
+	margin-left: 35px;
+
+}
+
+#words{
+	margin-top: 50px;
+}
+
+.c{
+	
+	width:550px;
+	height: 840px;
+	float:left;
+	position:absolute;
+}
+
+
+
+#one{
+background-color: red;
+position:fixed;
+}
+
+.box{
+	width:475px;
+	height:250px;
+	float:left;
+	margin-left: 35px;
+	overflow:scroll;
+	position:fixed;
+}
+
+#life{
+
+	background-color: black;
+	margin-top:100px;
+	
+}
+
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	color: #ffdab9;
+	bottom:0;
+	font-size: 48px;
+	margin-left:10px;
+	position: absolute;
+}
+
+h2{
+	color: #C0C0C0;
+	font-size: 32px;
+	font-style: bold;
+	text-align: right;
+	font-family: 'Lobster', cursive;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+
+}
+h3{
+	color: #DC143C;
+	font-family: 'Indie Flower', cursive;
+	text-align: right;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+
+}
+h4{
+	color: #C0C0C0;
+	font-size: 32px;
+	font-style: bold;
+	text-align: left;
+	font-family: 'Lobster', cursive;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	position:relative;
+
+}
+h5{
+	color: #DC143C;
+	font-family: 'Indie Flower', cursive;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+h6{
+	color: #ffdab9;	
+	z-index:2;
+	font-size: 32px;
+	font-family: 'Josefin Slab', serif;
+	width:200px;
+	
+}
+
+p{
+
+	font-family: 'Josefin Slab', serif;
+	color: #DC143C;
+	text-align: center;
+	text-indent: 50px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	
+}
+
+
+#career{
+
+	background-color:black;
+	margin-top: 450px;
+	
+}
+
+
+#album{
+
+	background-color: black;
+	margin-top:100px;
+}
+
+#influences{
+	background-color: black;
+	margin-top: 450px;
+	font-size: 20px;
+}
+
+#two{
+	background-color: red;
+	position:fixed;
+	margin-left: 1060px;
+}
+
+
+
+img{
+	vertical-align: 0;
+	margin-left: 45px;
+}
+.hey{
+	margin-left: 0px;
+}
+
+#margin{
+
+	margin-left: 60px;
+	margin-top: 20px;
+
+
+}
+#three{
+	background-color: black;
+	margin-left: 550px;
+	position:fixed;
+	
+
+}
+
+
+.container2{
+
+	width:1700px;
+	height:840px;
+	
+}
+
+.container1{
+
+	width:1000px;
+	height:100px;
+	
+}
+
+
+.c3{
+
+	width:510px;
+	height: 840px;
+	z-index:0;
+	overflow:scroll;
+	line-height: 30px;
+	
+}

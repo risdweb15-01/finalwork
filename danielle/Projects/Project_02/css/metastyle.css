@@ -1,0 +1,342 @@
+.meta{
+	
+	background-color: #ffffff;
+	margin: 0 auto;
+	-webkit-font-smoothing:antialiased;
+}
+
+
+#menubar ul{
+	opacity: 0;
+    position: relative;
+    visibility: hidden;
+    z-index: 1;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;  
+	text-align: center;
+
+}
+
+#menubar{
+	position: relative;
+	list-style: none;
+	display: inline;
+}
+
+#menubar a {
+text-decoration: none;
+position: relative;
+
+
+ }
+
+#menubar:hover ul {
+visibility: visible;
+opacity: 1;
+
+}
+
+.menubar ul{
+	opacity: 0;
+    position: relative;
+    visibility: hidden;
+    z-index: 1;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;  
+	text-align: center;
+
+}
+.menubar{
+	position: relative;
+	list-style: none;
+	display: inline;
+}
+
+.menubar a {
+text-decoration: none;
+position: relative;
+
+ }
+
+.menubar:hover ul {
+visibility: visible;
+opacity: 1;
+
+}
+.menubar2 ul{
+	opacity: 0;
+    position: relative;
+    z-index:1;
+    visibility: hidden;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;  
+	text-align: center;
+	left:-30px;
+
+}
+
+
+.menubar2{
+	position: relative;
+	list-style: none;
+	display: inline;
+}
+
+.menubar2 a {
+text-decoration: none;
+position: relative;
+
+ }
+
+.menubar2:hover ul {
+visibility: visible;
+opacity: 1;
+
+}
+
+
+
+#dropdown1:nth-child(1) {
+float: left;
+position: relative;
+list-style: none;
+background: black;
+width:600px;
+height:400px;
+left: -30px;
+
+}
+
+
+#dropdown1 a:hover {
+color: #ccc;
+}
+
+#dropdown1 a{
+top: 175px;
+}
+
+#dropdown1 a:nth-child(1) {
+color: #cbcbcb;
+text-align: right;
+}
+
+#dropdown1 ul {
+list-style: none;
+display: inline;
+position: relative;
+padding: 15px;
+}
+
+#dropdown1 ul li {
+position: relative;
+padding: 8px;
+top: 5px;
+right: 5px;
+font-size: 13.5px;
+
+}
+
+.dropdown2:nth-child(1) {
+
+position: relative;
+list-style: none;
+background: black;
+width:600px;
+height:400px;
+left: -30px;
+
+}
+
+
+.dropdown2 a:hover {
+color: blue;
+}
+
+.dropdown2 a{
+top: 100px;
+}
+
+.dropdown2 a:nth-child(1) {
+color: #cbcbcb;
+text-align: right;
+}
+
+.dropdown2 ul {
+list-style: none;
+display: inline;
+position: relative;
+padding: 15px;
+}
+
+.dropdown2 ul li{
+position: relative;
+padding: 20px;
+top: 5px;
+right: 5px;
+font-size: 13.5px;
+
+}
+
+.dropdown3:nth-child(1) {
+position:relative;
+list-style: none;
+background: black;
+width:600px;
+height:400px;
+right:-30;
+}
+
+
+.dropdown3 a:hover {
+color: blue;
+}
+
+.dropdown3 a{
+top: 100px;
+}
+
+.dropdown3 a:nth-child(1) {
+color: #cbcbcb;
+text-align: right;
+}
+
+.dropdown3 ul {
+list-style: none;
+display: inline;
+position: relative;
+padding: 15px;
+}
+
+.dropdown3 ul {
+position: relative;
+padding: 8px;
+top: 5px;
+right: 5px;
+font-size: 13.5px;
+
+}
+.dropdown3 ul li{
+position: relative;
+padding: 20px;
+top: 5px;
+right: -20px;
+font-size: 13.5px;
+
+}
+
+/*.subdrop ul ul{
+	opacity: 0;
+    position: relative;
+    visibility: hidden;
+    z-index: 1;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
+	transition: all 2s ease;  
+	text-align: center;
+
+}
+
+.supdrop{
+	position: relative;
+	list-style: none;
+	display: inline;
+}
+
+.subdrop a a{
+text-decoration: none;
+position: relative;
+
+ }
+
+.subdrop:hover ul ul {
+visibility: visible;
+opacity: 1;
+
+}
+*/
+.metahaven{
+
+	width:700px;
+	height:450px;
+	position: relative;
+	float:left;
+	font-variant: small-caps;
+	background-color: #ffffff
+}
+
+a:hover {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+    transition: 2s;
+
+}
+
+
+
+#one{
+margin-right: 100px;
+margin-bottom: 10px;
+font-variant:small-caps;
+
+}
+
+#two{
+	margin-bottom:10px;
+	text-align: right;
+}
+
+
+#logo{
+	margin-left: 700px;
+	margin-top: 360px;
+	
+}
+
+#three{
+	margin-right: 100px;
+	margin-bottom: 10px;
+	font-variant: small-caps;
+}
+
+#four{
+	font-variant: small-caps;
+	
+}
+
+/*div div{
+	margin-top: 420px;
+}*/
+
+
+span{
+	margin-left: 500px;
+
+}
+
+a:link{
+	color:black;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+a:visited{
+	color:black;
+}
+
+a:hover{
+	color: #FFFF78;
+}
+
+

@@ -1,0 +1,66 @@
+.header{
+
+	position:absolute;
+	width:770px;
+	height:80px;
+	background-color: red;
+}
+
+.table{
+
+	position:absolute;
+	width:770px;
+	height:20px;
+	background-color: red;
+	margin-top:90px;
+}
+
+
+
+.container1 {
+
+	width:200px;
+	height:120px;
+
+}
+
+
+.c{
+	width:250px;
+	height:620px;
+	background-color: red;
+	float:left;
+}
+
+#one{
+margin-right: 10px;
+}
+
+#two{
+margin-right: 10px;
+}
+
+#three{
+}
+
+
+.container2{
+
+	width:800px;
+	height:620px;
+}
+
+.footer{
+
+	width:770px;
+	height:80px;
+	background-color: red;
+	margin-top: 10px;
+
+}
+
+.container3{
+
+	width:200px;
+	height:120px;
+}

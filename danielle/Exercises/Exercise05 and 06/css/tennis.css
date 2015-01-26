@@ -1,0 +1,126 @@
+.topleft{
+
+	float:left;
+	width:100px;
+	height:400px;
+	background-color: red;
+	margin-bottom: 2.5px;
+
+}
+
+
+.toptop{
+
+	position: absolute;
+	float:left;
+	width:590px;
+	height:125px;
+	background-color: red;
+	margin-left: 105px;
+}
+
+.topleft2{
+
+	position: absolute;
+	width:290px;
+	height:270px;
+	background-color: red;
+	margin-left: 105px;
+	margin-top: 130px;
+
+	
+}
+
+.topright2{
+
+	position: absolute;
+	width:295px;
+	height:270px;
+	background-color: red;
+	margin-left: 400px;
+	margin-top: 130px;
+
+	
+}
+
+.topright{
+	position:absolute;
+	float:left;
+	width: 100px;
+	height: 400px;
+	background-color: red;
+	margin-bottom: 2.5px;
+	margin-left: 700px;
+
+}
+
+
+.court{
+
+	width:900px;
+	height:400px;
+
+}
+
+
+.bottomleft{
+
+	width:100px;
+	height:400px;
+	background-color: red;
+	margin-top: 2.5px;
+
+}
+
+.bottomleft2{
+
+	float:left;
+	position: absolute;
+	width:290px;
+	height:268px;
+	background-color: red;
+	margin-left: 105px;
+	margin-top: 2.5px;
+
+
+}
+
+.bottombottom{
+	
+	
+	position: absolute;
+	width:590px;
+	height:127px;
+	background-color: red;
+	margin-left: 105px;
+	margin-top: 275px;
+
+}
+
+.bottomright2{
+
+	position: absolute;
+	float:left;
+	width:295px;
+	height:268px;
+	background-color: red;
+	margin-left: 400px;
+	margin-top: 2.5px;
+}
+
+
+.bottomright{
+
+	position: absolute;
+	width:100px;
+	height: 400px;
+	background-color: red;
+	margin-left: 700px;
+	margin-top:2.5px;
+}
+.court2{
+
+	width:800px;
+	height:400px;
+
+}

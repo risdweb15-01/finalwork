@@ -1,0 +1,44 @@
+body{
+
+	background: url(../img/medium/print/ui.png) repeat;
+}
+
+
+
+.logo{
+  position: relative;
+  float:left;
+  margin-top: 400px;
+}
+
+p{
+
+	margin-top: 300px;
+	margin-left: 500px;
+	z-index:1;
+	font-style: Georgia;
+}
+
+p{	
+	position: relative;
+	float: left;
+	width:400px;
+	height:300px;
+	
+}
+
+/*Animation Prefs*/
+@-webkit-keyframes pulse {
+      0% {background-color: #45CEEF;}
+     25% {background-color: #FFF5A5;}
+     50% {background-color: #FFD4DA;}
+     75% {background-color: #99D2E4;}
+     100% {background-color: #D8CAB4;}
+}
+
+/*Body Styles*/
+p {
+    -webkit-animation: pulse 17s infinite alternate;
+    background-color: #45CEEF;
+
+}

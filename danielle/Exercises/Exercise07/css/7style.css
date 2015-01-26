@@ -1,0 +1,21 @@
+body{
+	background-position: top center;
+	background: url(../img/btcovercover.jpg) no-repeat top center;
+
+
+}
+
+.menu-bar ul ul {
+	display: block;
+}
+
+.menu-bar li:hover ul{
+	display: block;
+
+}
+
+a:hover{
+
+	color:green;
+}
+
