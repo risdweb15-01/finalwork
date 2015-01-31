@@ -16,7 +16,4 @@ $(document).ready(function() {
        $(this).toggle(1000);
    }); 
 
-
-  $("tangerine").fadeOut(1000);
-
 });
