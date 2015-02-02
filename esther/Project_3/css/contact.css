@@ -1,0 +1,11 @@
+#container {
+	display: flex; 
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.shape {
+	width: 16.5%;
+}
+.y {
+	margin-left: 16.5%
+}

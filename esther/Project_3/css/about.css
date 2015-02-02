@@ -1,0 +1,43 @@
+
+#container {
+	display: flex; 
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.shape {
+	width: 16.5%;
+}
+.y {
+	margin-left: 16.5%
+}
+#title {
+	float: left;
+	width: 16.5%;
+	margin-left: 16%;
+	margin-top: -10%;
+	font-family: Roboto;
+	font-size: 36px;
+
+}
+#text {
+	float:left;
+	margin-left: 16.5%;
+	width: 16.5%;
+	height: 100%;
+	background-color: #ef673f;
+	font-family: Roboto;
+	font-size: 18px;
+}
+p {
+	font-size: 18px;
+	margin: 10px
+}
+#menu {
+	float: left;
+	margin-left: 16.5%;
+	margin-top: 10%;
+	width: 16.5%;
+	background-color: #008f8a;
+	font-family: Roboto;
+	font-size: 24px
+}
