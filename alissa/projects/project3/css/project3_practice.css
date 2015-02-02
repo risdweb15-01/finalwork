@@ -1,0 +1,168 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width:100%;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  z-index:0;
+
+}
+
+.flex-intro{
+  background: yellow;
+  padding: 5%;
+  margin-top: 15% solid white;
+  
+ 
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  z-index:0;
+}
+.flex-end{
+  background: yellow;
+  padding: 5%;
+  margin-top: 15% solid white;
+  
+ 
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  z-index:0;
+}
+
+.img_row{
+  background: yellow;
+padding-top: 5%;
+  width: 100%;
+  height: 70%;
+  z-index:0;
+}
+
+.textbox{
+  z-index:100;
+  position:absolute;
+  background-color:lightpink;
+  width:100px;
+  height:100px;
+}
+.flex-item {
+  background: tomato;
+  padding: 2%;
+  width: 50%;
+  height: 100%;
+  margin-top: 5%;
+  
+  color: white;
+  font-size: 0.2em;
+  line-height:1.1em;
+  text-align: left;
+  z-index:0;
+}
+.flex-item-3 {
+  background: tomato;
+  width: 30%;
+  height: 100%;
+  padding:1.5%;
+  
+  color: white;
+  font-size:0.2em;
+  line-height:1.1em;
+  text-align: left;
+  z-index:0;
+  float:left;
+}
+.z{
+  padding-top:5%;
+  padding-left:5%;
+  font-family:Garamond;
+  font-size:8em;
+  font-style:bold;
+  color:lightgrey;
+  opacity:0.5;
+  line-height:100%;
+  position:relative;
+  z-index:2;
+}
+.z2{
+  font-family:Garamond;
+  font-size:8em;
+  padding-left:5%;
+  font-style:bold;
+  color:lightgrey;
+  opacity:0.5;
+  line-height:100%;
+  padding-bottom:5%;
+  z-index:2;
+
+}
+#present{
+  top:20%;
+  width:100%;
+  background-color:lightpink;
+}
+.present{
+  left:30%;
+  top:30%;
+  position:absolute;
+  z-index:3;
+  font-family:Impact;
+  font-size:2em;
+  line-height:1.1em;
+  color:black;
+}
+
+#z-index{
+  position:relative;
+  background-color:white;
+  width:100%;
+  z-index:2;
+}
+
+@media screen and (min-width:200px){
+  img{
+    width:100%;
+  }
+  .flex-intro{
+    width:100%;
+  }
+  .img_row{
+    width:100%;
+  }
+}
+
+/*@media (max-width:50px){
+  html {font-size:20%;}
+
+}*/
+
+@media (min-width:200px){
+  html {font-size:80%;}
+
+}
+
+@media (min-width:400px){
+  html {font-size:100%;}
+
+}
+
+@media (min-width:600px){
+  html {font-size:150%;}
+
+}
+
+@media (min-width:1000px){
+  html {font-size:200%;}
+
+}
+
+
+
