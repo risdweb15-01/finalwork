@@ -1,0 +1,316 @@
+body {
+  background-color: black;
+  font-family: Avenir, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#header{
+background-color: rgba(0,0,0,0.2);
+width: 100%;
+height: 50px;
+z-index: 200;
+position: fixed;
+text-align: center;
+top:0px;
+padding-top: 10px
+}
+
+
+a{
+color: white;
+font-family: Avenir;
+font-size: 15px;
+text-decoration:none;
+padding-right: 5%; 
+padding-left: 5%;
+}
+
+.redborder{
+  width: 100%;
+  height: 20px;
+  top: 0px;
+  background-color: #e94e4e;
+}
+
+.yellowborder{
+  width: 100%;
+  height: 20px;
+  top: 0px;
+  background-color: #fef5e1;
+}
+
+
+.container {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+.container section {
+  width: 100%;
+  height: 100vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+ 
+}
+.container section:nth-child(1) .image {
+  background-image: url(file:///Users/HannaOh/Desktop/project%203/img/intro_image3.gif);
+}
+.container section:nth-child(2) .image {
+  background-color: #fef5e1;
+}
+.container section:nth-child(3) .image {
+  background-color:#2ebfc8;
+}
+.container section:nth-child(4) .image {
+    background-color:#e94e4e;
+}
+.container section:nth-child(5) .image {
+  background-image: url();
+}
+.container section:nth-child(6) .image {
+  background-image: url(gray);
+}
+.container section .image {
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 5;
+}
+
+h1{
+  color: white;
+  font-size: 350%;
+    font-size: 11.0vmin;
+  line-height: 100px;
+    line-height: 12.0vmin;
+  font-family: Avenir;
+  text-align: center;
+  margin-top: 30vmin;
+}
+
+#design{
+ color: white;
+  font-size: 170%;
+  font-size: 20.0vmin;
+    line-height: 18.0vmin;
+  font-family: Avenir;
+}
+
+#tp{
+  color: white;
+  font-size: 30%;
+  font-size: 5.0vmin;
+  font-family: Avenir;
+  font-weight: 200;
+margin-top: -7vmin;
+      text-align: center;
+}
+
+#dp{
+  color: white;
+  font-size: 20%;
+  font-size: 3.3vmin;
+  font-family: Avenir;
+  font-weight: 400;
+  margin-top: 100px;
+    text-align: center;
+
+}
+
+#arrow{
+  margin-top: 10px;
+}
+
+#arrow .scroll{
+  position:relative;
+  bottom: 30px;
+  left:0px;
+  visibility:hidden;
+  font-size: 18px;
+  font-family: Avenir;
+  padding-top: 10px;
+}
+
+#arrow:hover .scroll{
+  visibility:visible;
+}
+
+h2{
+  color: #e94e4e;
+}
+
+.container section .stuff1 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 80%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  z-index: 10;
+  color: gray;
+  margin: 0 auto;
+  font-size: 20px;
+  position: relative;
+}
+
+.container section .stuff2 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  z-index: 10;
+  color: white;
+  margin: 0 auto;
+  font-size: 18px;
+  position: relative;
+}
+
+#blue{
+color: white;
+}
+
+.people{
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(250,250,250,0.7);
+}
+
+.container section .stuff {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  z-index: 10;
+  color: gray;
+  margin: 0 auto;
+  font-size: 18px;
+  position: relative;
+}
+
+.container section .cohost {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 10;
+}
+
+.coimage{
+  width:170px;
+  height:200px ;
+    -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ijlal{
+ 
+  width: 170px;
+  height: 200px;
+  background-color:#fef5e1;
+  font-family: Avenir;
+  font-size: 15px; 
+  color: gray;
+    -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.matt{
+
+  width: 170px;
+  height: 200px;
+  background-color:#e94e4e; 
+  font-family: Avenir;
+  font-size: 15px; 
+  color: white;
+    -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.container section .stuff h2 {
+  margin: 0px;
+}
+.container section .stuff:before, .container section .stuff:after {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: #d35400;
+  content: "";
+  margin: 30px 0;
+}
+
