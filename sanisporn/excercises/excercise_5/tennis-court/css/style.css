@@ -1,0 +1,28 @@
+#container{
+  height: 804px;
+  width: 688px;
+  background-color: white;
+}
+.box {
+  margin: 1px;
+  float: left;
+}
+.left {
+  width: 100px;
+  height: 400px;
+  background: red;
+}
+.middle {
+  width: 482px;
+  height: 400px;
+}
+.midbottom {
+  height: 238px;
+  width: 239px;
+  background: red;
+}
+.midtop {
+  height: 159px;
+  width: 480px;
+  background: red;
+}

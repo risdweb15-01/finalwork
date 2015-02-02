@@ -1,0 +1,136 @@
+@media (min-width: 768px) {
+  .navbar-collapse {
+    height: auto;
+    border-top: 0;
+    box-shadow: none;
+    max-height: none;
+    padding-left:0;
+    padding-right:0;
+  }
+  .navbar-collapse.collapse {
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  .navbar-collapse.in {
+    overflow-x: visible;
+  }
+
+.navbar
+{
+	max-width:300px;
+	margin-right: 0;
+	margin-left: 0;
+	background: rgba(0, 0, 0, 0.3);
+	border: 0px;
+	color:white;
+}	
+
+.navbar-fix
+{
+	position: fixed; 
+	width:100%;
+	z-index: 2;
+}
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}
+}
+
+@media (max-width: 768px){
+	.navbar-default{
+		background: rgba(0, 0, 3, 1);
+		border: 0px;
+	}
+	.navbar{
+		background: rgba(0, 0, 3, 1);
+		border: 0px;
+	}
+
+	
+}
+
+@media (min-width: 300px) {
+	.navbar-fix
+	{
+		position: fixed; 
+		width:100%;
+		z-index: 2;
+	}
+}
+
+
+
+body {
+	background-color:transparent; 
+	color: white;
+	padding-bottom: 5%;
+}
+.intro{
+	text-align: right;
+}
+h1{
+	font-size: 8em;
+	/*font-family: 'Droid Serif', serif;*/
+	padding-top: 2.5em;
+	
+}
+.reduce{
+	margin-top: -30%;
+}
+h2{
+	margin-top: -30px;
+	font-size: 6.5em;
+	/*line-height: 0.4em;*/
+}
+h3{
+	font-size: 2.8em;
+	padding-top: 2%;
+}
+h4{
+	font-size: 6.5em;
+	padding-top: 50%;
+	padding-bottom: 7%;
+}
+h5{
+	font-size: 2em;
+	
+}
+.pic{
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+.name{
+	font-size: 3em;
+	
+	padding-top: 20%;
+	padding-bottom: 4%;
+}
+img{
+	
+	border-style: solid;
+    border-width: 5px;
+}
+a:hover{
+	color: #fee17c;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.bottom{
+	height: 50px;
+	width: 100%;
+	
+}
