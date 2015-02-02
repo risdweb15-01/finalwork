@@ -5,38 +5,36 @@
 	background-position: fixed;
 	height:auto;
 	float:right;
-	opacity: 0.8;
+
 	z-index: -1;
 }
 
 .brod2{
-  position: fixed;
-  top:320px;
-  left:1150px;
-  width: 17%;
-  max-width:80%;
+  background-position: fixed;
+
+  width: 100%;
+  max-width:100%;
   height:auto;
   float:right;
-  opacity: 0.8;
+
   z-index: 0;
 }
 
 .brod3{
-  position: fixed;
-  top:550px;
-  left:1150px;
-  width: 17%;
-  max-width:80%;
+   background-position: fixed;
+
+  width: 100%;
+  max-width:100%;
   height:auto;
   float:right;
-  opacity: 0.8;
+
   z-index: 0;
 }
 
 
 
 .logo1{
-	position: absolute;
+	position: fixed;
 	top:600px; left:20px;overflow:auto;
 	width:30%;
 	float:left;
@@ -92,7 +90,7 @@
 
 
 .logo3{
-	position: absolute;
+	position: fixed;
 	top:180px; left:30px;overflow:auto;
 	float:left;
 	padding:10px;
@@ -130,7 +128,7 @@ ul#menu{
   margin:0;
   padding:0 10px;
   background:#000000;
-  color:white;
+  color:black;
   box-shadow:0 -1px rgba(0,0,0,0) inset;
   font-family: Suranna, serif;
   font-size: 30px;
@@ -157,13 +155,13 @@ label:after{
   content:"";
   position:absolute;
   display:block;
-  color:white;
+  color:black;
   top:50%;
   right:5px;
   width:0;
   height:0;
-  border-top:4px solid rgba(255,255,255,.5);
-  border-bottom:0 solid rgba(255,255,255,.5);
+  border-top:4px solid ;
+  border-bottom:0 solid ;
   border-left:4px solid transparent;
   border-right:4px solid transparent;
   transition:border-bottom .1s, border-top .1s .1s;
