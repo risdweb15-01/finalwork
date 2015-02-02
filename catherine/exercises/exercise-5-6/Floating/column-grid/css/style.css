@@ -1,0 +1,44 @@
+div{
+background-color:red;
+width:608px;
+height:100px;
+
+
+
+}
+#all{
+	margin:auto;
+}
+
+
+#header{
+	height:70px;
+	border-bottom: 4px solid white;
+
+
+}
+
+
+
+#topic{
+   	height:50px;
+    border-bottom: 4px solid white;
+
+}
+
+
+.column{
+	width:200px;
+	height:800px;
+
+	display:inline-block;
+
+}
+
+
+
+
+#footer{
+	clear:both;
+	height:70px;
+}

@@ -1,0 +1,232 @@
+.check02, a:hover {cursor: url(..//img/cronut.png), progress !important;} 
+
+*{	margin:auto;
+	font-family: 'Slabo 27px', serif;}
+
+p{
+color:#B2B2B2;}  
+
+ blockquote{
+ 	display: block;
+    padding-top:70px;
+    font-size:18px;
+ }
+
+h3{
+	color:#E9A3B9;
+}
+
+.pointer{
+	z-index:1;
+	width:300px;
+	height:200px;
+	position:fixed;
+	top:100px;
+	right:-40px;
+}
+
+#pointer_img{
+	width:90px;
+	height:90px;
+	border-radius: 100%;
+	float:left;
+}
+
+
+ #pointer_description{ 
+ 	width:150px;
+	height:100px;
+	float:left;
+	font-family: 'Slabo 27px', serif;
+	font-size:30px;
+	text-align:right;
+	padding:5px;
+	color:#878687;
+}
+
+#ba{
+	position:fixed;
+	top:5px;
+	left:10px;
+}
+
+.check01{
+		width:300px;
+		height:300px;
+		background-color: white;
+		float: left;
+}
+
+.check02{
+		width:300px;
+		height:270px;
+		background-color: white;
+		float: left;
+		color:#B2B2B2;
+		padding-top:15px;
+		padding-bottom:15px;
+	}
+
+.check03{
+		width:50px;
+		height:50px;
+		background-color: white;
+		float: left;
+}
+
+#container{
+		width:650px;
+		height:3200px;
+		background-color: white;
+		margin:auto;
+}
+#cronut_multi{
+
+	height:185px;
+  
+}
+#q1{
+	height:155px;
+}
+#cookieshot{
+	height:180px;
+}
+#q2{
+	height:150px;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+#q3_4{
+	height:170px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+
+#q5_6{
+	height:300px;
+	padding-top:0px;
+	padding-bottom:20px;}
+#q7{
+	height:205px;
+	padding-top:0px;
+	padding-bottom:10px;
+}
+#smore{
+    height:225px;
+}
+#smore2{
+    height:170px;
+}
+
+#q8{
+	height:170px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+#q9{
+	height:155px;
+	padding-top:35px;
+	padding-bottom:15px;
+}
+#roubochon{
+	 height:240px;
+	 position:relative:
+	 top:-10px;
+}
+#baguette{
+	height:180px;
+	position:relative;
+	top:25px;
+}
+#q10{
+	height:210px;
+	padding-top:15px;
+	padding-bottom:15px;}
+#q11{
+	height:200px;
+	padding-top:35px;
+	padding-bottom:5px;}
+#q12{
+	height:200px;
+	padding-top:30px;
+	padding-bottom:10px;}
+
+#q13{
+	height:230px;
+	padding-top:0px;
+	padding-bottom:10px;}
+#q14{
+	height:180px;
+	padding-top:10px;
+	padding-bottom:10px;}
+
+#flan{
+	height:200px;
+	position:relative;
+	top:-20px;
+}
+#gummy{
+	height:220px;
+	position:relative;
+	top:-40px;
+}
+#q15{
+	height:165px;
+	padding-top:5px;
+	padding-bottom:10px;}
+#bloody{
+	height:375px;
+	position:relative;
+	top:-40px;
+}
+#mont{
+	height:470px;
+}
+
+#q16{
+	height:365px;
+	padding-top:0px;
+	padding-bottom:10px;
+	position:relative;
+	top:-40px;
+}
+
+#q17{
+	height:460px;
+	padding-top:0px;
+	padding-bottom:10px;	
+	
+}
+
+#q18{
+	height:375px;
+	padding-top:25px;
+	padding-bottom:10px;}
+
+#q19{
+	height:375px;
+	padding-top:25px;
+	padding-bottom:10px;}
+#book{
+		height:390px;
+	}
+
+	#minime{
+	height:220px;
+	position:relative;
+	top:-10px;
+}
+
+#q20{
+	height:210px;
+	padding-top:0px;
+	padding-bottom:10px;}
+#q21{
+	height:275px;
+	padding-top:5px;
+	padding-bottom:15px;}
+#cinna{
+	position:relative;
+    top:-35px;
+	}

@@ -1,0 +1,22 @@
+.check01{
+		width:100px;
+		height:100px;
+		background-color: red;
+		float: left;
+}
+
+.check02{
+		width:100px;
+		height:100px;
+		background-color: white;
+		float: left;
+
+}
+
+#container{
+		width:900px;
+		height:900px;
+		background-color: white;
+		margin:auto;
+
+}

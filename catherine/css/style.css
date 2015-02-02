@@ -1,0 +1,50 @@
+/* Start http://www.cursors-4u.com */ 
+body, a:hover {cursor: url(http://ani.cursors-4u.net/smiley/smi-3/smi307.cur), 
+	progress !important;}
+ /* End http://www.cursors-4u.com */
+
+
+*{
+	font-family:'Slabo 27px', serif;
+	color:#455697;
+	text-decoration: none;
+}
+#header{
+	font-size:80px;
+	background-image:url(http://rack.0.mshcdn.com/media/ZgkyMDEzLzA5LzA2LzI5L0Nsb3Vkc19lZGl0LjM0ZTBmLmpwZwpwCXRodW1iCTEyMDB4NjI3IwplCWpwZw/e3b79162/853/Clouds_edited-1.jpg) ;
+  	color:#ffffff;
+  	
+  	
+}
+
+a:hover{
+	color:orange;
+	opacity:0.6;
+}
+
+
+@media screen and (max-width: 1200px) { 
+		#exercise-list{
+			float: left;
+			margin:0%;
+			width: 50%;
+				
+		}
+        #exercise-list02{
+			float: left;
+			margin:0%;
+			width: 50%;
+		
+		}
+
+        #header{
+			float: none;
+			margin:5%;
+			width: 100%;
+			height:20%;
+					
+		}
+
+
+
+	}

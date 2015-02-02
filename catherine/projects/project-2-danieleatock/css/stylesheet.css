@@ -1,0 +1,281 @@
+.dot:hover {cursor: url(..//img/logo_cursor.png), progress !important;}
+ a:hover {cursor: url(..//img/magnify_pointer.png), progress !important;}
+
+
+body{
+    background-image:url(..//img/map_ground.jpg);
+    background-size: cover;
+}
+
+#circle{
+    width:600px;
+    height:600px;
+    margin:auto;
+    position:relative;
+    z-index:1;
+}
+#logo{
+    width:600px;
+    height:123px;
+    margin:auto;
+    z-index:2;
+    position:absolute;
+    top:250px;
+    left:35px;
+}
+
+
+#home_button{
+     width:190x;
+    height:190px;
+    position:absolute;
+    background-color:white;
+    border-radius:100%;
+    top:10px;
+    left:10px;
+}
+
+.transparent_circle{
+    width:450px;
+    height:450px;
+    margin:auto;
+    position:relative;
+    z-index:1;
+    border-radius:100%;
+}
+.description{
+    width:480px;
+    height:80px;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:10px; 
+    margin:auto;
+    position:relative;
+    z-index:5;
+}
+
+#text-box{
+    position:relative;
+    width:480px;
+    height:80px;
+    margin:auto;
+}
+
+#background{
+    position:absolute;
+    top:20px;
+    left:0px;
+    width:480px;
+    height:65px;
+    margin:auto;
+       background-color:white;
+       z-index:1;
+       opacity:.5;
+}
+#project{
+    width:600px;
+    height:520px;
+    margin:auto;
+    position:relative;
+    top:40px;
+
+}
+
+#all{
+    margin:auto;
+}
+.dot{
+    width:50px;
+    height:50px;
+    border-radius:100%; 
+    position: absolute;
+}
+
+.dot:hover{
+    opacity: 0.3;
+}
+
+#dot1{
+    top:220px;
+    left:120px;
+}
+#dot2{
+    top:387px;
+    left:100px;
+}
+#dot3{
+    top:475px;
+    left:350px;
+}
+#dot4{
+    top:490px;
+    left:120px;
+}
+#dot5{
+    top:65px;
+    left:320px;
+}
+#dot6{
+    top:430px;
+    left:850px;
+}
+#dot7{
+    top:475px;
+    left:850px;
+}
+#dot8{
+    top:495px;
+    left:750px;
+}
+#dot9{
+    top:20px;
+    left:520px;
+}
+#dot10{
+    top:10px;
+    left:340px;
+}
+#dot11{
+    top:360px;
+    left:60px;
+}
+#dot12{
+    top:310px;
+    left:180px;
+}
+#dot13{
+    top:285px;
+    left:890px;
+}
+#dot14{
+    top:390px;
+    left:866px;
+}
+#dot15{   
+    top:450x;
+    left:880px;
+}
+
+
+
+#imprint{
+    background-image: url(..//img/14.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+
+#pricelabel{
+    background-image: url(..//img/pricelabel_giftwrap.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#fruitbowl{
+    background-image: url(..//img/fruitbowl.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#alphatape{
+    background-image: url(..//img/alphatape.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#no{
+    background-image: url(..//img/no.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#london{
+    background-image: url(..//img/london.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#bigbrother{
+    background-image: url(..//img/bigbrother.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#inturn{
+    background-image: url(..//img/inturn.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#blind{
+    background-image: url(..//img/gay.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#pen{
+    background-image: url(..//img/pen.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#poster{
+    background-image: url(..//img/poster.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#hour{
+    background-image: url(..//img/hour.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#umbrella{
+    background-image: url(..//img/umbrella.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#shelf{
+    background-image: url(..//img/shelf.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}
+#chart{
+    background-image: url(..//img/chart.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow:hidden;
+
+}

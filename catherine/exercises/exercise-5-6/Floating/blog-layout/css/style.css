@@ -1,0 +1,60 @@
+div{
+background-color:red;
+}
+
+#all{
+margin-left:20px;
+margin-top:0px;
+background-color:white;
+
+width:8500px;
+height:2000px;
+}
+
+
+
+#container1{
+	background-color:white;
+	height:500px;
+	width:810px;
+	clear:both;
+}
+.container2{
+	background-color:white;
+	height:500px;
+	width:810px;
+	clear:both;
+}
+
+#header{
+
+	border-top:100px solid white;
+	height:150px;
+	width:810px;
+}
+
+.post{
+
+	border-top:100px solid white;
+	border-bottom:10px solid white;
+	height:300px;
+	width:600px;
+	display:inline-block;
+
+}
+
+#ads{
+	width:190px;
+	height:180px;
+	display:inline-block;
+	float:right;
+	margin-top:100px;
+}
+
+.comment{
+	height:50px;
+	width:600px;
+	border-bottom:10px solid white;
+}
+
+

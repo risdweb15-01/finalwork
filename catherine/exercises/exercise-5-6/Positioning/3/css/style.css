@@ -1,0 +1,100 @@
+div{
+
+	background-color:red;
+	width:25px;
+	height:170px;
+	border-left:5px solid white;
+	float:left;
+	position:relative;
+
+}
+#all{
+	background-color:white;
+	width:800px;
+	height:1000px;
+	border:none;
+	position:static;
+	margin:auto;
+	float:none;
+}
+
+#one {
+    top:140px;
+}
+
+#two
+{
+    top:180px;
+}
+#three{
+    top:130px;
+}
+#four{
+    top:180px;
+}
+#five{
+    top:155px;
+}
+#six{
+    top:200px;
+}
+#seven{
+    top:215px;
+}
+#eight{
+    top:260px;
+}
+#nine{
+    top:230px;
+}
+#ten{
+    top:260px;
+}
+#eleven{
+    top:180px;
+}
+#tweleve{
+    top:70px;
+}
+#thirteen{
+    top:155px;
+}
+#fourteen{
+    top:200px;
+}
+#fifteen{
+    top:260px;
+}
+#sixteen{
+    top:170px;
+}
+#seventeen{
+    top:90px;
+}
+#eighteen{
+    top:70px;
+}
+#nineteen{
+    top:80px;
+}
+#twenty{
+    top:170px;
+}
+#twenty_one{
+    top:140px;
+}
+#twenty_two{
+    top:230px;
+}
+#twenty_three{
+    top:195px;
+}
+#twenty_four{
+    top:150px;
+}
+#twenty_five{
+    top:220px;
+}
+#twenty_six{
+    top:240px;
+}

@@ -1,0 +1,406 @@
+*{
+font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	color:black;
+}
+.logo-everything{
+	position:fixed;
+	top:-5%;
+}
+#logo-text{
+ font-weight:800;
+ /*Original still gradient color*/
+ /*background: -webkit-linear-gradient(#252525,#DADADB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+
+/* Clip Background Image */
+ background: url(..//img/logo_background2.png)  repeat-x;
+ -webkit-background-clip: text;
+ /* Animate Background Image */
+ -webkit-text-fill-color: transparent;
+ -webkit-animation: aitf 8s linear infinite;
+ /* Activate hardware acceleration for smoother animations */
+ -webkit-transform: translate3d(0,0,0);
+ -webkit-backface-visibility: hidden;
+}
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {background-position: 0% 50%;}
+  100% {background-position: 100% 50%;}
+}
+
+
+#yellowtag{
+	position:fixed;
+	width:250px;
+	height:50px;
+	background-color:#FFE000;
+	color:#252525;
+	z-index:2;
+	font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    text-align:center;
+
+}
+
+#logo{
+	position:fixed;
+}
+
+.description{
+	color:#9C9B97;
+	z-index:0;
+	position:relative;
+}
+
+#main-text{
+	background-color:#FFFFCF; 
+	color:black;
+	z-index:0;
+	position:relative;
+	font-size: 1vmax;
+	
+}
+
+
+#blank-two{
+    	top:250%;
+    	height:100%;
+    	
+		}
+.blank{
+	background-color:white;
+	position:absolute;
+	top:10px;
+	
+
+}
+.speaker{
+	  
+	
+}
+.speaker-headshot{
+	display:inline-block;
+	width:33%;
+
+	background-color: black;
+	opacity: 1;
+	z-index: 3;
+}
+
+/*.nametag{
+z-index:4;
+position:absolute;    
+color:white;
+font-size:3vmax;
+font-weight:bold;
+text-align:center;
+top:10%;
+}
+.nametag:hover{
+	z-index:1;
+}
+#speaker1-head h1{
+left:9%;
+}
+#speaker2-head h1{
+left:42%;
+}
+#speaker3-head h1{
+left:75%;
+}*/
+#speaker1-head img{
+max-width:100%;
+max-height:100%;
+opacity:0.7;
+}
+#speaker1-head img:hover{
+opacity:0.0;
+}
+#speaker1-head:hover{
+background-image: url(..//img/sam.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+#speaker2-head img{
+max-width:100%;
+max-height:100%;
+opacity:0.7;
+}
+
+#speaker2-head img:hover{
+opacity:0.0;
+}
+#speaker2-head:hover{
+background-image: url(..//img/alex.jpg);
+background-repeat: no-repeat;
+background-size:contain;
+}
+#speaker3-head img{
+max-width:100%;
+max-height:100%;
+opacity:0.7;
+}
+
+#speaker3-head img:hover{
+opacity:0.0;
+}
+#speaker3-head:hover{
+background-image: url(..//img/emma.jpg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+
+.speaker-float{
+	display:inline-block;
+	width:24%;
+	height:45%;
+	margin-top:2%;
+	margin-left:2.1%;
+	background-color:#212121;
+	z-index: 3;
+	padding:3%;
+	color:#D0D1D0;
+}
+
+.topopout{
+	position:relative;
+	width:250px;
+	height:50px;
+	left:55%;
+	background-color:#FFE000;
+	color:#212121;
+	z-index:3;
+    font-weight:400;
+    text-align:center;
+    font-size: 1.5em;
+    border:solid 2px;
+    border-radius:0.4em;
+    font-weight:bold;
+
+  box-shadow:#FFE000 3px 3px;
+  transition:0.2s ease;
+  cursor:pointer;
+}
+
+.topopout:active {
+  margin-top:10px;
+  box-shadow:none;
+  transition:none;
+}
+
+#background-popout {
+    z-index:5;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+
+}
+
+.popout {
+    background: none repeat scroll 0 0 #000000;
+    padding: 15px 35px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    max-width: 800px;
+    max-height: 380px;
+    z-index: 5;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-box-shadow: 0 0 0 2px #FFEE00;
+    box-shadow: 0 0 0 2px #FFEE00;
+}
+
+.popout_content img{
+	float:left;
+	max-width:25%;
+    max-height:25%;
+}
+
+.video{
+	float:left;
+	position:relative;
+	left:10%;
+
+}
+.brands{
+	float:left;
+}
+.ease{
+  transition: all 2s ease-in-out;
+}
+.brands:hover{
+  -webkit-transform: translate(300px, 0);
+  -moz-transform: translate(300px, 0);
+  -o-transform: translate(300px, 0);
+  transform: translate(300px, 0);
+}
+
+#sam-brand img{
+	max-width:60%;
+    max-height:60%;
+}
+
+
+#alex-brand img{
+	max-width:65%;
+    max-height:65%;
+
+}
+#emma-brand img{
+	max-width:75%;
+    max-height:75%;
+
+}
+
+
+
+@media screen and (max-width:1280px){
+
+	.logo-everything{
+		width:100%;
+		z-index:1;
+	}
+
+	.logo {
+       width: 40%; 
+      margin:auto;
+      position:relative;
+      font-size:100%;
+      z-index:1;
+       }
+   
+	#bubble img {
+	   width: 100%;
+	   margin:auto;
+	   margin-top:3%;
+	   display:block;
+	   z-index:1;
+	   }
+
+	#logo-text{
+	   position:absolute;
+	   z-index:1;
+	   width: 100%;
+	   margin:auto;
+	   top:25%;
+	   left:3%;
+	   text-align:center;
+	   font-size:6vmax;
+	   }
+
+	    #yellowtag{
+		width:18%;
+		top:12%;
+	    left:20%;
+	    }
+
+	    #yellowtag-text{
+	    position:absolute;
+	    width: 100%;
+	    margin:auto;
+	    text-align:center;
+	    font-size:3vmin;
+	    }
+
+		.blank{
+		width: 100%; 
+		height:50%;
+        }
+
+    	#blank-two{
+    	top:220%;
+    	height:70%;
+		}
+       .speaker{
+    	width:100%;
+    	height:170%;
+    	background-color:black;
+    	z-index:3;
+    	position:absolute;
+    	top:250%;
+		}
+
+		#all-description{
+		width:100%;
+		top:40%;
+		position:absolute;
+	    }
+
+		.description{
+		display:block;
+		margin:auto;
+		padding-top:13%;
+		padding-left:30%;
+		padding-right:30%;
+		width:40%;
+		height:50%;
+	
+		}
+
+		#main-text{
+		display:block;
+		margin:auto;
+		padding-top:1%;
+		padding-bottom:1%;
+		padding-left:30%;
+		padding-right:30%;
+		width:40%;
+		height:14%;
+	    }
+
+
+
+	    .speaker-float h2 {
+		 font-size:5vmin;
+        }
+       .speaker-float p {
+		 font-size:2.5vmin;
+        }
+	   .speaker-float{
+		display:inline-block;
+		width:24%;
+		height:45%;
+		margin-top:2%;
+		margin-left:2.1%;
+		background-color:#212121;
+		z-index: 3;
+		padding:3%;
+		color:#D0D1D0;
+	    }
+
+
+	    .topopout{
+	    width: 65%;
+	    height:10%;
+	    font-size:5vmin;
+
+	    }
+
+}
+
+
+ @media only screen and (max-device-width: 480px){
+
+ }
+
+
+

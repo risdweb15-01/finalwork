@@ -1,0 +1,35 @@
+body{
+	
+	background-color:aliceblue;
+
+}
+
+
+
+p{
+	font-family: "Courier New", Courier, monospace;
+	font-size:12px;
+	color:#407F7F;
+
+}
+
+
+#yo{
+background-color: #000000;
+width: 150px;
+height: 50px;
+
+}
+
+
+.oui {
+
+background-color: #ffffff;
+width: 150px;
+height: 50px;
+
+}
+
+.oui p{
+	color:#000000;
+}

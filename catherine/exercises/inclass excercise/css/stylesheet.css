@@ -1,0 +1,56 @@
+#pibb{
+	text-shadow: 40px 66px 10px #42FFCD;
+	color:white;
+}
+p{
+font-size:100px;
+
+}
+
+
+
+
+
+#coco{
+background-color: skyblue;
+width:100px;
+height: 100px;
+color: white;
+
+}
+
+.boxmodel{
+width:300px;
+height:700px;
+padding-top:100px;
+margin:400px auto 10px auto;
+background-color: black;
+color: white;
+border:10px inset #0088dd;
+
+
+}
+
+
+.orange{
+	float: left;
+	width:30px;
+height:70px;
+background-color: red;
+color: white;
+}
+
+
+.lemon{
+	
+	position: absolute;
+	top:100px;
+	left:100px;
+	z-index:1;
+	overflow:scroll;
+	background-color: blue;
+	height: 500px;
+	width:500px;
+	color: white;
+
+}

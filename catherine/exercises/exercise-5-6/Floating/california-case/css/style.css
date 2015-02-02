@@ -1,0 +1,111 @@
+div{
+	background-color:red;
+}
+
+
+#all{
+		width:980px;
+		height:532px;
+		margin-top:20px;
+		margin-left:20px;
+
+}
+
+
+.container{
+	background-color:white;
+	width:300px;
+	height:492px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+}
+#container1-1{
+    background-color:white;
+	width:223.5px;
+	height:210px;
+	float:left;
+}
+
+.container1-2{
+    background-color:white;
+	width:300px;
+	height:140px;
+	float:left;
+}
+
+.container2-1{
+    background-color:white;
+	width:300px;
+	height:140px;
+	float:left;
+}
+
+#smallbox_container{
+    background-color:white;
+	width:74.5px;
+	height:140px;
+	float:left;
+}
+
+
+.small_box{
+
+	width:35.25px;
+	height:68px;
+	float:left;
+	margin-top:2px;
+	margin-left:2px;
+	
+}
+#roll_1_7{
+
+	width:72.48px;
+	height:208px;
+	float:left;
+	margin-top:2px;
+	margin-left:2px
+
+}
+
+#small_box_3_1
+{	width:35.25px;
+	height:68px;
+	
+    position:absolute;
+	margin-top:142px;
+	margin-left:2px;
+}
+
+
+#small_box_5_1
+{	width:35.25px;
+	height:68px;
+	
+    position:absolute;
+	margin-top:72px;
+	margin-left:2px;
+}
+
+
+
+#roll_1_2{
+
+	width:35.25px;
+	height:138px;
+	float:left;
+	margin-top:2px;
+	margin-left:2px
+
+}
+
+.medium-box {
+	width:72.5px;
+	height:138px;
+	float:left;
+	margin-top:2px;
+	margin-left:2px
+
+
+
+}
