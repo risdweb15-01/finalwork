@@ -11,10 +11,13 @@ a:visited{
 
 
 a:hover {
-    color: #000000;
+    color: gray;
     	text-shadow:none;
 
+}
 
+a.text4:hover {
+color:gray;
 }
 
 #enter{
@@ -108,7 +111,7 @@ a:hover {
 			text-align:center;
 			display: inline-block;
 		    vertical-align: middle;
-		   color: #FFFFFF
+		   color: black;
 		}
 
 .text2{
@@ -127,7 +130,7 @@ a:hover {
 			text-align:center;
 			display: inline-block;
 		    vertical-align: middle;
-		   color: #FFFFFF
+		   color: black;
 		}
 
 .text3{
@@ -146,7 +149,7 @@ a:hover {
 			text-align:center;
 			display: inline-block;
 		    vertical-align: middle;
-		   color: #FFFFFF
+		    color: black;
 
 		}
 
@@ -154,8 +157,7 @@ a:hover {
 
 	@media screen and (max-width: 1200px);
             position:fixed;
-
-       		left:88%;
+       		left:89%;
        		top:4%;
        		float:right;
             letter-spacing: 3px;

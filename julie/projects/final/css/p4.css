@@ -1,0 +1,63 @@
+.text4{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+       		left:60%;
+       	  	top:5%;
+       	  	float:right;
+            letter-spacing: 3px;
+            width:80%;
+			font-size: 15px;
+			font-family:"Suranna";
+		   	color:#000000;
+		
+
+		}
+
+    .text7{
+
+  @media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+            left:65.5%;
+            top:5%;
+            float:right;
+            letter-spacing: 1.5px;
+            width:80%;
+            font-size: 15px;
+            font-family:"Suranna";
+            color:black;
+    }
+
+
+		.text5{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+        	left:76.5%;
+        	top:5%;
+        	float:right;
+            letter-spacing: 1.5px;
+            width:80%;
+		    font-size: 15px;
+	       	font-family:"Suranna";
+		    color:#000000;
+		}
+
+
+		.text6{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+        	left:86%;
+        	top:5%;
+         	float:right;
+            letter-spacing: 1.5px;
+            width:80%;
+	       	font-size: 15px;
+		    font-family:"Suranna";
+		    color:#000000;
+		}
