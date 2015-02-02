@@ -1,0 +1,41 @@
+.container{
+    width:720px;
+    height:810px;
+    margin:0px;
+    background-color: grey;
+    clear:left;
+}
+.bar_1{
+    width:720px;
+    height:100px;
+    position: relative;
+    clear: both;
+    background-color: #0088dd;
+    margin-bottom: 15px;
+}
+.bar_2{
+    width:720px;
+    height:30px;
+    position: relative;
+    clear: both;
+    background-color: #0088dd;
+    margin-bottom: 15px;
+}
+
+.bar_3{
+    height:600px;
+    width:230px;
+    position: relative;
+    float: left;
+    background-color: #0088dd;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.bar_4{
+    height:600px;
+    width:230px;
+    position: relative;
+    float: left;
+    background-color: #0088dd;
+    margin-bottom: 15px;
+}

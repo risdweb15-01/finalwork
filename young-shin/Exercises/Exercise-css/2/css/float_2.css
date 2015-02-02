@@ -1,0 +1,51 @@
+.container{
+    width:620px;
+    height:810px;
+    background-color: grey;
+}
+.bluebox_1{
+    width:100px;
+    height:400px;
+    position: relative;
+    float: left;
+    background-color: #0088dd;
+    margin-left: 5px;
+    z-index: 1;
+}
+.bluebox_2{
+    width:405px;
+    height:120px;
+    position: relative;
+    float: left;
+    background-color: #0088dd;
+    margin-left: 5px;
+}
+.bluebox_3{
+    height:275px;
+    width:200px;
+    position: relative;
+    float: left;
+    background-color: #0088dd;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.bluebox_4{
+    height:400px;
+    width:100px;
+    position: absolute;
+    left: 523px;
+    top: 3px;
+    background-color: #0088dd;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.bluebox_5{
+    height:400px;
+    width:100px;
+    position: absolute;
+    left: 8px;
+    top: 408px;
+    background-color: #0088dd;
+    margin-left: 5px;
+    margin-top: 5px;
+}

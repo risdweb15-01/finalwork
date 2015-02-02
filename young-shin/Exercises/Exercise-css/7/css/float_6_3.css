@@ -1,0 +1,9 @@
+.redbar{
+    background-color: red;
+    width:30px;
+    height:180px;
+    position:absolute;
+    float:left;
+    margin-right: 10px;
+
+}

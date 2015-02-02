@@ -1,0 +1,20 @@
+.container{
+    width:700px;
+    height:700px;
+    background-color: white;
+    overflow: hidden;
+}
+.greybox{
+    width:100px;
+    height:100px;
+    position: relative;
+    float: left;
+    background-color: grey;
+}
+.whitebox{
+    width:100px;
+    height:100px;
+    position: relative;
+    float: left;
+    background-color: white;
+}

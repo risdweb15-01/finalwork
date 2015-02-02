@@ -1,0 +1,74 @@
+.container{
+    width: 1600px;
+    height: 760px;
+    background-color: #FFCCCC;
+    clear:both;
+}
+
+.box_1{
+    width: 498px;
+    height: 718px;
+    position: relative;
+    float: left;
+    background-color: #A8A8A8;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-left: 2px; 
+}
+.one{
+    width: 60px;
+    height: 100px;
+    background-color: #FFCCCC;
+    margin-right: 2px;
+    margin-top: 2px;
+    position:relative;
+    float: left;
+
+}
+.two{
+    width: 60px;
+    height: 202px;
+    background-color: #FFCCCC;
+    margin-right: 2px;
+    margin-top: 2px;
+    position: relative;
+    float: left;
+
+}
+.three{
+    width:122px;
+    height:202px;
+    background-color: #FFCCCC;
+    margin-right: 2px;
+    margin-top: 2px;
+    position: relative;
+    float: left;
+
+
+}
+.four{
+    width:122px;
+    height:304px;
+    background-color: #FFCCCC;
+    margin-right: 2px;
+    margin-top: 2px;
+    position: relative;
+    float: left;
+
+}
+.wrap{
+    width:372px;
+    height: 304px;
+    margin: 0px;
+    position: relative;
+    float: left;
+
+}
+.swrap{
+    width:62px;
+    height:204px;
+    margin: 0px;
+    position: relative;
+    float: left;
+}

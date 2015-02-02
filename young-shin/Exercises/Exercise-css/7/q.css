@@ -1,0 +1,13 @@
+body{
+	
+}
+.manu_bar ul ul{
+	
+	display:block;
+}
+.menu_bar li:hover > ul{
+	display:block;
+}
+.pictures{
+	
+}

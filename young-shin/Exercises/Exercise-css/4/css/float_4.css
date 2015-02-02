@@ -1,0 +1,40 @@
+.container{
+    width: 710px;
+    height: 800px;
+    background-color: white;
+    clear:left;
+}
+.header{
+    width: 700px;
+    height: 100px;
+    position: relative;
+    clear: both;
+    background-color: #00FF99;
+    margin-bottom: 70px;
+}
+.box_1{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    float: left;
+    background-color: #00FF99;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.box_2{
+    width: 140px;
+    height: 160px;
+    position: relative;
+    float: left;
+    background-color: #00FF99;
+    margin-bottom: 15px;
+}
+
+.box_3{
+    height: 40px;
+    width: 550px;
+    position: relative;
+    float: left;
+    background-color: #00FF99;
+    margin-bottom: 70px;
+}

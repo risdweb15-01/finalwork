@@ -1,0 +1,232 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background:black;
+	font-family: Verdana;
+	width:100%;
+}
+#wrap{
+	position:relative;
+  width:52.63157894736842%;
+  height:0;
+  padding-bottom:52.63157894736842%;
+  margin-right:auto;
+  margin-left: auto;
+  margin-top: 0.5%;
+}
+
+.box1 {
+  position:absolute;
+  width:80%;
+  height:0;
+  padding-bottom:90%;
+  background-color: black;
+  border:6px solid rgba( 0, 150, 254, .5 );
+  margin-left:10%;
+  z-index:10;
+}
+.box2 {
+  position:absolute;
+  width:90%;
+  height:0;
+  padding-bottom:80%;
+  background-color: black;
+  margin-top:10%;
+  margin-right:10%;
+  z-index:10;
+  border:6px solid rgba( 0, 150, 254, .5 );
+}
+.box3 {
+  position:absolute;
+  width:90%;
+  height:0;
+  padding-bottom:80%;
+  background-color: black;
+  margin-top:10%;
+  margin-left:10%;
+  z-index:10;
+  border:6px solid rgba( 0, 150, 254, .5 );
+}
+.box4 {
+  position:absolute;
+  width:80%;
+  height:0;
+  padding-bottom:90%;
+  background-color: black;
+  margin:10% 10% 0 10%;
+  z-index:10;
+  border:6px solid rgba( 0, 150, 254, .5 );
+}
+.box5 {
+  position:absolute;
+  width:88%;
+  height:0;
+  padding-bottom:88%;
+  background-color: black;
+  z-index:10;
+  margin-top: 6%;
+  margin-left: 6%;
+  border:6px solid rgba( 0, 150, 254, .5 );
+  cursor: pointer;
+}
+.box5:hover {
+  border-color: rgba( 0, 150, 254, 1 );
+  box-shadow: 0 0 50px 5px rgba( 0, 150, 254, .4 );
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.zindex {z-index:100;}
+.sbox{
+  z-index: 10;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 1.2vw;
+  font-weight: 500;
+  margin-top: 0;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.p{
+  color: rgba( 0, 150, 254, .5 );
+  transition: 0.2s all;
+}
+.p.active {
+  color: rgba( 0, 150, 254, 1 );
+}
+.sbox p:hover {
+  color: rgba( 0, 150, 254, 1 );
+  text-shadow:0px 1px 12px #666;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.box1.active {
+  border-color: rgba( 0, 150, 254, 1 );
+  box-shadow: 0 0 50px 5px rgba( 0, 150, 254, .4 );
+}
+.box2.active {
+  border-color: rgba( 0, 150, 254, 1 );
+  box-shadow: 0 0 50px 5px rgba( 0, 150, 254, .4 );
+}
+.box3.active {
+  border-color: rgba( 0, 150, 254, 1 );
+  box-shadow: 0 0 50px 5px rgba( 0, 150, 254, .4 );
+}
+.box4.active {
+  border-color: rgba( 0, 150, 254, 1 );
+  box-shadow: 0 0 50px 5px rgba( 0, 150, 254, .4 );
+}
+.box5.active {
+  border-color: rgba( 0, 150, 254, 1 );
+  box-shadow: 0 0 50px 5px rgba( 0, 150, 254, .4 );
+}
+.a1{
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform-origin: top left;
+  position: absolute;
+  top:67%;
+  left:-1%;
+}
+.a2{
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform-origin: bottom right;
+  position: absolute;
+  top:57%; 
+  margin-left:65%;
+}
+.a3{
+  margin-top: 109%;
+}
+.swrap{
+  position:relative;
+  width:80%;
+  height:0;
+  padding-bottom:90%;
+  z-index: 10;
+  margin:5% auto;
+}
+.swrap p:first-child{
+  color:white;
+  letter-spacing: 0.1em;
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-align: left;
+  display:block;
+  margin-top:15%; 
+}
+.swrap p:nth-child(2){
+  color:white;
+  letter-spacing: 0.2em;
+  font-size: 3.2vw;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: left;
+  display:block;
+  margin-top:1%;
+  margin-bottom: 0;
+  text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.76);
+}
+.swrap p:nth-child(3){
+  color:white;
+  letter-spacing: 0.1em;
+  font-size: 2vw;
+  font-weight: 500;
+  text-align: left;
+  display:block;
+  margin-top:2%;
+  margin-bottom: 0;
+}
+.swrap p:nth-child(4){
+  color:white;
+  letter-spacing: 0.1em;
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-align: right;
+  display:block;
+  margin-top:12%;
+  margin-bottom: 0;
+}
+.swrap p:nth-child(5){
+  color:white;
+  letter-spacing: 0.1em;
+  font-size: 1.3vw;
+  font-weight: 500;
+  text-align: right;
+  display:block;
+  margin-top:2%;
+  margin-bottom: 0;
+}
+.swrap p:nth-child(6){
+  width:75%;
+  color:white;
+  letter-spacing: 0.1em;
+  font-size: 1vw;
+  line-height: 140%;
+  text-align: left;
+  display:block;
+  margin-top: 10%;
+  margin-left:25%;
+}
+
+
+
+
+/************************Mediaqueries***************
+*****************************/
+@media screen and (max-width: 768px) { 
+    body {
+      margin:0;      
+    }
+
+    
