@@ -14,13 +14,12 @@ a:visited{
 
 
 
-
 #main-container{
 	 background-color:gray;
      float:left;
-	 margin:1.5%;
-	 width:96vw;
-	 height:100vh;
+	 margin:0%;
+	 width:100%;
+	 height:100%;
 }
 
 .title{
@@ -35,8 +34,11 @@ a:visited{
 		#main-container{
 			float: none;
 			margin:0;
-			width: 96vw;
+			width: 100%;
+			
 			
 		}
+
+		
 	}
 
