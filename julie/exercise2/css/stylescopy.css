@@ -1,0 +1,40 @@
+body{
+	background-color:Azure;
+
+}
+
+
+
+#hello{
+
+		color:blue;
+}
+
+
+.boxmodel{
+			width:300px;
+			height:700px;
+			padding:100px;
+			margin:100px;
+			background-color: green;
+			color:white;
+			font-family: Helvetica;
+			border:10px dotted #890878;
+			margin:50px auto ;
+
+			position:absolute;
+			top:10;
+			left:10;
+			z-index:1;
+			overflow:scroll;
+			z-index:1;
+		}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,165 @@
+div{
+	  font-family: 'Arvo', serif;
+
+	width:3200px;
+	height:800px;
+	background-color:#F2FAF0;
+	z-index: -10;
+
+}
+
+h1{
+	color:black;
+	z-index: 5;
+	font-family: 'Arvo', serif;
+	font-size: 70px;
+	text-align: center;
+	position: fixed;
+	top:650px;
+	left:500px;
+
+}
+
+h2{
+
+	color:black;
+	z-index: 0;
+	font-size: 20px;
+	position: absolute;
+	top:30px;
+	left:60px;
+
+}
+
+h3{
+
+	color:black;
+	z-index: 0;
+	font-size: 15px;
+	position: absolute;
+	top:30px;
+	left:830px;
+
+}
+
+h4{
+	width:580px;
+	height:200px;
+	color:black;
+	z-index: 0;
+	font-size: 12px;
+	position: absolute;
+	top:30px;
+	left:1570px;
+
+}
+
+h5{
+	width:600px;
+	height:200px;
+	color:black;
+	z-index: 1;
+	font-size: 12px;
+	position: absolute;
+	top:30px;
+	left:2320px;
+
+}
+
+
+
+
+
+.nada{
+
+position:absolute;
+top:20px;
+left:50px;
+z-index: 1;
+
+
+              -webkit-transform: translate(0, 0);
+              -webkit-transition: -webkit-transform 2000ms;
+
+              transform: translate(0, 0);
+              transition: transform 200ms;
+
+              will-change: transform;
+
+}
+
+.nada.move {
+                -webkit-transform: translate(0px, 150px);
+              transform: translate(0px, 150px);
+            }
+
+.nada5{
+
+position:absolute;
+top:20px;
+left:800px;
+z-index: 1;
+
+
+              -webkit-transform: translate(0, 0);
+              -webkit-transition: -webkit-transform 2000ms;
+
+              transform: translate(0, 0);
+              transition: transform 200ms;
+
+              will-change: transform;
+
+}
+
+.nada5.move {
+                -webkit-transform: translate(0px, 150px);
+              transform: translate(0px, 150px);
+            }
+
+.nada3{
+
+position:absolute;
+top:20px;
+left:1550px;
+z-index: 2;
+
+
+              -webkit-transform: translate(0, 0);
+              -webkit-transition: -webkit-transform 2000ms;
+
+              transform: translate(0, 0);
+              transition: transform 200ms;
+
+              will-change: transform;
+
+}
+
+.nada3.move {
+                -webkit-transform: translate(0px, 150px);
+              transform: translate(0px, 150px);
+            }
+
+.nada4{
+
+position:absolute;
+top:20px;
+left:2300px;
+z-index: 2;
+
+
+              -webkit-transform: translate(0, 0);
+              -webkit-transition: -webkit-transform 2000ms;
+
+              transform: translate(0, 0);
+              transition: transform 200ms;
+
+              will-change: transform;
+
+}
+
+.nada4.move {
+                -webkit-transform: translate(0px, 150px);
+              transform: translate(0px, 150px);
+}
+
+

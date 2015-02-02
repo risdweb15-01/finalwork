@@ -1,0 +1,47 @@
+body{
+	background-color:Azure;
+
+}
+
+
+
+#hello{
+
+		background-color:#ff4456;
+		font-family:Georgia;
+		font-weight:bold;
+		font-size:32px;
+		width:500px;
+		height: 500px;
+
+}
+
+p{
+	color:#f08080;
+}
+
+.bye{
+
+		background-color:#fff456;
+		color:#000000;
+		font-family:Georgia,serif;
+		width:500px;
+		height: 500px;
+
+}
+
+
+.bye p{
+
+		color:red;
+		background-color: white;
+
+
+
+}
+
+
+
+
+
+
