@@ -1,0 +1,256 @@
+.brod{
+	width: 100%;
+	max-width:100%;
+	background-size: cover;
+	background-position: fixed;
+	height:auto;
+	float:right;
+	opacity: 0.8;
+	z-index: -1;
+}
+
+.logo1{
+	position: absolute;
+	top:500px; left:30px;overflow:auto;
+	width:40%;
+	float:left;
+	padding:10px;
+	height:auto;
+	z-index:1;
+
+    -webkit-animation: rotation 8s linear infinite;
+    -moz-animation: rotation 8s linear infinite;
+    -ms-animation: rotation 8s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
+}
+
+
+.logo2{
+	position: absolute;
+	top:40px; left:730px;overflow:auto;
+	float:left;
+	padding:10px;
+	width:80px;
+	height:auto;
+	z-index:1;
+
+    -webkit-animation: rotation 8s linear infinite;
+    -moz-animation: rotation 8s linear infinite;
+    -ms-animation: rotation 8s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
+}
+
+
+.logo3{
+	position: absolute;
+	top:500px; left:960px;overflow:auto;
+	float:left;
+	padding:10px;
+	width:120px;
+	height:auto;
+	z-index:1;
+
+    -webkit-animation: rotation 6s linear infinite;
+    -moz-animation: rotation 6s linear infinite;
+    -ms-animation: rotation 6s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
+}
+
+
+
+
+ul#menu{
+  position:fixed;
+  top:30px;
+  left:50px;
+  width:25%;
+  height:0em;
+  margin:0;
+  padding:0 10px;
+  background:#000000;
+  color:white;
+  box-shadow:0 -1px rgba(0,0,0,0) inset;
+  font-family: Suranna, serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+ul#menu > li{
+  float:left;
+  list-style-type:none;
+  position:relative;
+}
+
+label{
+  position:relative;
+  display:block;
+  padding:0 18px 0 0px;
+  line-height:3em;
+  transition:background 0.3s;
+  cursor:pointer;
+}
+
+label:after{
+  content:"";
+  position:absolute;
+  display:block;
+  color:black;
+  top:50%;
+  right:5px;
+  width:0;
+  height:0;
+  border-top:4px solid rgba(255,255,255,.5);
+  border-bottom:0 solid rgba(255,255,255,.5);
+  border-left:4px solid transparent;
+  border-right:4px solid transparent;
+  transition:border-bottom .1s, border-top .1s .1s;
+  }
+
+
+
+/* @media Rule */
+@media all and (max-width: 3000px) {
+
+section, aside {
+    float: none;
+    width: auto;
+  }
+
+}
+
+
+/*hide the inputs*/
+input{display:none}
+
+/*show the second levele menu of the selected voice*/
+input:checked ~ ul.submenu{
+  max-height:500px;
+  transition:max-height 0.5s ease-in;
+}
+
+ul.submenu{
+
+
+  max-height:0;
+  padding:0;
+  overflow:hidden;
+  list-style-type:none;
+  background:#444;
+  box-shadow:0 0 1px rgba(0,0,0,.3);
+  transition:max-height 0.5s ease-out;
+  position:absolute;
+  min-width:100%;
+  font-family: Suranna, serif;
+  font-size: 20px;
+}
+
+ul.submenu li a{
+  display:block;
+  padding:0px;
+  color:black;
+  font-family: Suranna, serif;
+  font-size: 12px;
+  text-decoration:none;
+  box-shadow:0 -1px rgba(0,0,0,.5) inset;
+  transition:background .3s;
+  white-space:nowrap;
+
+  
+}
+
+ul.submenu li a:hover{
+	color:black;
+  background:black;
+  font-family: Suranna, serif;
+  font-size: 12px;
+ height:500;
+}
+
+.text4{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+       		left:71%;
+       		top:4%;
+       		float:right;
+            letter-spacing: 3px;
+            width:80%;
+			font-size: 15px;
+			font-family:"Suranna";
+		   	color:#000000;
+		   	text-shadow: 2px 2px 2px #000000;
+
+		}
+
+
+		.text5{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+       		left:76.5%;
+       		top:4%;
+       		float:right;
+            letter-spacing: 1.5px;
+            width:80%;
+			font-size: 15px;
+			font-family:"Suranna";
+		   	color:#000000;
+		}
+
+
+		.text6{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+       		left:86%;
+       		top:4%;
+       		float:right;
+            letter-spacing: 1.5px;
+            width:80%;
+			font-size: 15px;
+			font-family:"Suranna";
+		   	color:#000000;
+		}
+
+
+/* @import Rule */
+@import url(p2.css) all and (max-width: 3000px) {...}

@@ -1,0 +1,75 @@
+a:link {
+    text-decoration: none;
+}
+			
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #808080;
+}
+			
+		
+#enter{
+	cursor:pointer;
+}
+
+
+.text{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+
+       		margin: -100px 0 0-100px;
+       		left:47%;
+       		top:53%;
+       		float:left;
+            letter-spacing: 4px;
+            width:80%;
+			width:270px;height:120px;
+			line-height: 5px;
+			text-align:center;
+			display: inline-block;
+		    vertical-align: middle;
+		   
+		}
+
+h1{
+		
+			text-align:center;
+		    vertical-align: middle;
+		    font-size:15px;
+		    font-family:"Suranna";
+			line-height: 15px;
+}
+
+h2{
+			text-align:center;
+		    vertical-align: middle;
+		    font-size:30px;
+		    font-family:"Suranna";
+		    line-height: 15px;
+		
+}
+
+h3{
+
+			text-align:center;
+		    vertical-align: middle;
+		    font-size:15px;
+		    font-family:"Suranna";
+		    line-height: 15px;
+
+}
+
+
+
+
+
+
+

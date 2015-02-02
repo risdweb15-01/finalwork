@@ -1,0 +1,212 @@
+
+.container{
+
+
+}
+.rich1{
+  width: 50%;
+  background-size: cover;
+  background-position: fixed;
+  height:auto;
+  float:left;
+  z-index: -1;
+  overflow: none;
+}
+
+.rich2{
+  width: 50%;
+  max-width:100%;
+  background-size: cover;
+  background-position: fixed;
+  height:auto;
+  float:left;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.rich3{
+  width:50%;
+  max-width:100%;
+  background-size: cover;
+  background-position: fixed;
+  height:auto;
+  float:right;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.rich4{
+  width: 50%;
+  max-width:100%;
+  background-size: cover;
+  background-position: fixed;
+  height:auto;
+  float:right;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+
+ul#menu{
+  position:fixed;
+  top:30px;
+  left:50px;
+  width:25%;
+  height:0em;
+  margin:0;
+  padding:0 10px;
+  background:#000000;
+  color:white;
+  box-shadow:0 -1px rgba(0,0,0,0) inset;
+  font-family: Suranna, serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+ul#menu > li{
+  float:left;
+  list-style-type:none;
+  position:relative;
+}
+
+label{
+  position:relative;
+  display:block;
+  padding:0 18px 0 0px;
+  line-height:3em;
+  transition:background 0.3s;
+  cursor:pointer;
+}
+
+label:after{
+  content:"";
+  position:absolute;
+  display:block;
+  color:black;
+  top:50%;
+  right:5px;
+  width:0;
+  height:0;
+  border-top:4px solid rgba(255,255,255,.5);
+  border-bottom:0 solid rgba(255,255,255,.5);
+  border-left:4px solid transparent;
+  border-right:4px solid transparent;
+  transition:border-bottom .1s, border-top .1s .1s;
+  }
+
+
+
+/* @media Rule */
+@media all and (max-width: 3000px) {
+
+section, aside {
+    float: none;
+    width: auto;
+  }
+
+}
+
+
+/*hide the inputs*/
+input{display:none}
+
+/*show the second levele menu of the selected voice*/
+input:checked ~ ul.submenu{
+  max-height:500px;
+  transition:max-height 0.5s ease-in;
+}
+
+ul.submenu{
+
+
+  max-height:0;
+  padding:0;
+  overflow:hidden;
+  list-style-type:none;
+  background:#444;
+  box-shadow:0 0 1px rgba(0,0,0,.3);
+  transition:max-height 0.5s ease-out;
+  position:absolute;
+  min-width:100%;
+  font-family: Suranna, serif;
+  font-size: 20px;
+}
+
+ul.submenu li a{
+  display:block;
+  padding:0px;
+  color:black;
+  font-family: Suranna, serif;
+  font-size: 12px;
+  text-decoration:none;
+  box-shadow:0 -1px rgba(0,0,0,.5) inset;
+  transition:background .3s;
+  white-space:nowrap;
+
+  
+}
+
+ul.submenu li a:hover{
+	color:black;
+  background:black;
+  font-family: Suranna, serif;
+  font-size: 12px;
+ height:500;
+}
+
+.text4{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+       		left:71%;
+       		top:4%;
+       		float:right;
+            letter-spacing: 3px;
+            width:80%;
+			font-size: 15px;
+			font-family:"Suranna";
+		   	color:white;
+                text-shadow: 2px 2px 2px #000000;
+
+		}
+
+
+		.text5{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+       		left:76.5%;
+       		top:4%;
+       		float:right;
+            letter-spacing: 1.5px;
+            width:80%;
+			font-size: 15px;
+			font-family:"Suranna";
+		   	color:white;
+        text-shadow: 2px 2px 2px #000000;
+
+		}
+
+
+		.text6{
+
+	@media screen and (max-width: 1200px);
+            position:fixed;
+            text-decoration: none;
+       		left:86%;
+       		top:4%;
+       		float:right;
+            letter-spacing: 1.5px;
+            width:80%;
+			font-size: 15px;
+			font-family:"Suranna";
+		   	color:white;
+                text-shadow: 2px 2px 2px #000000;
+
+		}
+
+
+/* @import Rule */
+@import url(p2.css) all and (max-width: 3000px) {...}
