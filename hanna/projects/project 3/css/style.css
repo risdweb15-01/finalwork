@@ -369,8 +369,8 @@ h5{
   background-color:#e94e4e;
   position: relative;
   float:left;
-  width: 96vmin;
-  height: 45vmin;  
+  width: 93vmin;
+  height: 42vmin;  
   text-align: center;
 }
 
@@ -386,8 +386,8 @@ h5{
   position: relative;
   float:left;
   background-color: #fef5e1;
-  width:32vmin;
-  height:40vmin;
+  width:31vmin;
+  height:41vmin;
 
 }
 
@@ -401,8 +401,8 @@ h5{
   position: relative;
   float:left;
   background-color: #c4c3c3;
-  width:32vmin;
-  height:40vmin;
+  width:31vmin;
+  height:41vmin;
   margin:auto;
 }
 
@@ -416,8 +416,8 @@ h5{
   position: relative;
   float:left;
   background-color: #2ebfc8;
-  width:32vmin;
-  height:40vmin;
+  width:31vmin;
+  height:41vmin;
   margin:auto;
 }
 
@@ -430,8 +430,8 @@ h5{
 .map{
   position: relative;
   float:left;
-  height: 85vmin;
-  width: 100vmin;
+  height: 83vmin;
+  width: 94vmin;
 }
 
 
