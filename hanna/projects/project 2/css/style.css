@@ -144,26 +144,14 @@ body{
 	top:53%; 
 }
 
-#main1:hover  {
-	opacity: .5;
 
-}
-#main2:hover  {
-	opacity: .5;
-
-}
-#main3:hover  {
-	opacity: .5;
 
 }
 #main4:hover  {
 	opacity: .5;
 
 }
-#main7:hover  {
-	opacity: .5;
 
-}
 #main6:hover  {
 	opacity: .5;
 	/*margin-top: 25px;*/
@@ -224,26 +212,26 @@ body{
 
 #a:link{
 	color: white;
-	background-color: gray;
+	background-color: #c1c1c1;
 	text-decoration: none;
 }
 
 #a:visited {
 	color: white;
-	background-color: gray;
+	background-color: #c1c1c1;
 	text-decoration: none;
 }
 
 .about-button:hover {
 	color: white;
-	background-color: gray;
+	background-color: #c1c1c1;
 	text-decoration: none;
 }
 
 
 #a:active {
 	color: white;
-	background-color: gray;
+	background-color: #c1c1c1;
 	text-decoration: none;
 }
 
@@ -261,13 +249,13 @@ body{
 
 .work-button:hover {
 	color: white;
-	background-color: gray;
+	background-color: #c1c1c1;
 	text-decoration: none;
 }
 
 #c:hover{
 	color:white;
-	background-color: gray;
+	background-color: #c1c1c1;
 }
 
 #c:active {
@@ -287,7 +275,7 @@ body{
 }
 
 #b:hover {
-	color: gray;
+	color: #c1c1c1;
 	text-decoration: none;
 }
 
@@ -303,9 +291,9 @@ body{
 	line-height: 90px;
 	width: 100px;
 	height: 100px;
-	background-color: gray;
-	margin-left: 10px;
-	margin-right: 20px;
+	background-color: #c1c1c1;
+
+	margin-right: 30px;
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
@@ -332,8 +320,8 @@ body{
 	line-height: 90px;
 	width: 100px;
 	height: 100px;
-	margin-left: 20px;
-	margin-right: 10px;
+	margin-left: 30px;
+
 	text-decoration: none;
 	font-family: Arial, sans-serif;
 	font-size: 15px;
@@ -375,9 +363,9 @@ h1{
 	width:1000px;
 	height:625px;
 	border-top: solid;
-	border-bottom: solid;
+
 	border-width: 2px;
-	border-color: gray;
+	border-color: #c1c1c1;
 	background-color: white;
 	overflow: hidden;
 }
