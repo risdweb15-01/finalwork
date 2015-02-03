@@ -1,8 +1,14 @@
 $(document).ready(function() {
-	$('.minibiber').click(function(){
-		$(this).fadeIn('slow');
+	
+    $(".about-box").hover(function() {
+    $(this).css("background-color", "#e00d68");
+})
 
-	});
+
+	$(".forum-box").hover(function() {
+    $(this).css("background-color", "#03d16b");
+})
 });
      
+
  

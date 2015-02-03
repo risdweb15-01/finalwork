@@ -262,6 +262,9 @@ a{
    }
 
 
+
+
+
    .minibiber img{
    	position:relative;
    	float:left;
@@ -351,11 +354,11 @@ a{
 
 .biber-text{
 	color:white;
- 	font-size: 160%;
+ 	font-size: 140%;
  	text-align: left;
- 	line-height:160%;
+ 	line-height:150%;
  	position:relative;
- 	top:-385px;
+ 	top:-230px;
  	margin-left:4%;
  	float:left;
  	width:48%;
@@ -395,11 +398,11 @@ a{
 
 .meier-text{
 	color:white;
- 	font-size: 160%;
+ 	font-size: 140%;
  	text-align: left;
- 	line-height:160%;
+ 	line-height:150%;
  	position:relative;
- 	top:-340px;
+ 	top:-180px;
  	margin-left:4%;
  	float:left;
  	width:50%;
@@ -421,7 +424,7 @@ a{
   .biopic-3 {
   	position:relative;
   	width:30%;
- 	height:520px;
+ 	height:500px;
  	margin-top:0%;
  	margin-left:9%;
   }
@@ -433,18 +436,18 @@ a{
   	float:left;
   	top:20px;
     width:100%;
- 	height:520px;
+ 	height:500px;
  	margin-top:0%;
  	margin-left:2%;
   }
 
 .busby-text{
 	color:white;
- 	font-size: 155%;
+ 	font-size: 140%;
  	text-align: left;
- 	line-height:155%;
+ 	line-height:150%;
  	position:relative;
- 	top:-210px;
+ 	top:-110px;
  	margin-left:4%;
  	float:left;
  	width:50%;
@@ -454,6 +457,22 @@ a{
  
  
 
+
+    
+    @media screen and (max-width: 700px) { 
+		.logo{
+			position:relative;
+			margin-left:17%;
+			margin-bottom:15%;
+			width:400px;
+			height:245px;
+		}
+
+
+		@media screen and (max-width: 700px) { 
+		.about, .project, .forum, .speakers{
+			display:none;
+		}
 
     
 
@@ -486,7 +505,7 @@ a{
 		  @media screen and (max-width: 700px) { 
 		.project-text{
 			font-size:100%;
-			width:70%;
+			width:80%;
 			margin-top:25%;
 		}
 			
@@ -498,22 +517,44 @@ a{
      @media screen and (max-width: 700px) { 
 		.forum-text{
 			float:none;
-			font-size:100%;
+			position:relative;
+			top:60px;
+
+			font-size:110%;
 			width:70%;
-			margin-top:10%;
+			margin-top:15%;
 
 		}
 
 		.minibiber, .minirichard, .minipeter{
+			display:none;
+			
+			}
+
+		.place{
 			float:none;
-			width:38%;
-			height:13%;
-			margin-top:30%;
-			margin-left:40%;
-			margin:auto;
-			
-			
-			
+			position:relative;
+			top:0px;
+			left:30px;
+			text-align: center;
+
+			font-size:120%;
+			width:80%;
+			margin-top:20%;
+			margin-bottom: 10%;
+		}
+
+		.rsvp{
+			float:none;
+			position:relative;
+			top:0px;
+			left:30px;
+			text-align: center;
+
+			font-size:120%;
+			width:80%;
+			margin-top:10%;
+			margin-bottom: 10%;
 		}
 
 
@@ -535,7 +576,7 @@ a{
 		   float:none;
 			width:90%;
 		margin-top:5%;
-		margin-left:9.5%;
+		margin-left:8.5%;
 
 		}
 
@@ -584,7 +625,7 @@ a{
 		top:500px;
 		width:100%;
 		margin-top:5%;
-		margin-left:9.5%;
+		margin-left:8.2%;
 
 		}
 
@@ -632,14 +673,14 @@ a{
 		top:500px;
 		width:100%;
 		margin-top:30%;
-		margin-left:9.5%;
+		margin-left:8.5%;
 
 		}
 
 	.biopic-3 {
 		float:none;
 		width:340px;
-		height:180px;
+		height:170px;
 		position:relative;
 	    margin-top:0%;
 		margin-left:5.5%;
@@ -649,7 +690,7 @@ a{
 	.biopic-3 img {
 		float:none;
 		width:92%;
-		height:360px;
+		height:350px;
 		position:relative;
 		top:430px;
 	    margin-top:0%;
