@@ -1,0 +1,336 @@
+#headimg {
+	width: 900px;
+	margin: 20px auto 0 auto;
+	display: relative;
+	
+}
+#disney{
+	color: #01DFD7;
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+}
+
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	text-align: right;
+	margin: 0 auto;
+	padding: 10px 40px 10px 50px;
+	
+}
+
+#mickey{
+	padding-left: 20px;
+	position: fixed;
+	float: left;
+}
+
+
+#mickey2{
+	padding-left: 20px;
+	position: absolute;
+	float: left;
+	z-index: 3;
+
+}
+
+
+
+
+#intro{
+	width: 850px;
+	text-align: justify;
+	float: right;
+	margin: 0 auto;
+	padding: 10px 40px 10px 50px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+
+}
+
+
+
+.semiintro{
+	width: 700px;
+	text-align: justify;
+	float: right;
+	margin: 0 auto;
+	padding: 100px 40px 10px 50px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+}
+
+
+
+#fletcherpic {
+	width : 120px;
+float:left;
+z-index: 10;
+margin-top: 20px;
+
+}
+
+
+
+
+
+#left {
+width: 700px;
+margin: auto;
+padding-top: 500px;
+
+
+
+
+
+
+}
+
+#left2 {
+width: 700px;
+margin: auto;
+padding-top: 100px;
+
+
+
+
+
+}
+
+
+#mb1 {
+	width: 720px;
+	margin: 0 auto 0px auto;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	text-align: center;	
+	color: white;
+
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #01DFD7;
+	padding: 10px;
+
+
+}
+
+
+.nbcstart{
+	width: 720px;
+	margin: 200px auto 0px auto;
+	font-family: 'Slabo 27px', serif;
+	font-size: 20px;
+	text-align: center;	
+	
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+#talk {
+
+	width: 400px;
+	float: left;
+	z-index: 10;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.fletcher {
+margin:10px;
+float:left;
+
+
+
+}
+
+.fletchertalk{
+
+width: 350px;
+height: auto;
+margin: 10px;
+float: left;
+background-color: #E6E6E6;
+margin: 10px;
+padding: 10px 20px 10px 20px;
+font-family: 'Cabin', sans-serif;
+font-weight: 600;
+font-size: 15px;
+border-radius: 8px;
+
+
+
+}
+
+.walttalk{
+width: 350px;
+height: auto;
+margin: 10px;
+float: left;
+background-color: yellow;
+padding: 10px 20px 30px 20px;
+font-family: 'Ubuntu', sans-serif;
+font-size: 15px;
+font-weight: 300;
+border-radius: 8px;
+
+
+
+
+}
+
+.walttalk2{
+width: 350px;
+height: auto;
+margin: 10px;
+float: left;
+background-color: red;
+padding: 10px 20px 10px 20px;
+font-family: 'Ubuntu', sans-serif;
+font-size: 15px;
+font-weight: 300;
+color: white;
+border-radius: 8px;
+
+
+
+
+
+}
+
+
+#waltpic {
+	width : 120px;
+float:left;
+margin-left: 20px;
+z-index: 10;
+}
+
+
+.fletcher1{
+	margin:10px 10px 10px 50px;
+	float:left;
+
+}
+
+.walt1{
+	margin-top:137px;
+}
+
+.fletcher2{
+	margin:530px 10px 10px 50px;
+	
+
+
+}
+
+.walt2{
+	margin-top:415px;
+}
+
+.fletcher3{
+	margin:228px 10px 10px 50px;
+	
+
+}
+
+.walt3{
+	margin-top:227px;
+}
+
+.fletcher4{
+	margin:227px 10px 10px 50px;
+	
+
+}
+
+.walt4{
+	margin-top:262px;
+	margin-bottom: 300px;
+}
+
+
+
+
+
+
+
+#nbcpic {
+	width : 120px;
+float:left;
+z-index: 10;
+}
+
+
+
+#waltpic {
+	width : 120px;
+float:left;
+margin-left: 20px;
+
+}
+
+
+.nbc1{
+	margin:20px 10px 10px 50px;
+	float:left;
+
+}
+
+.walt5{
+	margin-top:135px;
+}
+
+.nbc2{
+	margin:455px 10px 10px 50px;
+
+}
+
+.walt6{
+	margin-top:310px;
+}
+
+
+.nbc3{
+	margin:105px 10px 10px 50px;
+
+}
+
+.walt7{
+	margin-top:105px;
+}
+
+.nbc4{
+	margin:240px 10px 10px 50px;
+
+}
+
+.walt8{
+	margin-top:240px;
+	
+}
+
+.nbc5{
+	margin:190px 10px 10px 50px;
+
+}
+
+.walt9{
+	margin-top:210px;
+	margin-bottom: 300px;
+}
+
+
+
+
+#foot{
+width:200px;
+text-align: center;	
+font-family: 'Ubuntu', sans-serif;
+font-size: 15px;
+font-weight: 400;
+margin-left: auto;
+margin-right: auto;
+margin-top: 300px;
+
+}

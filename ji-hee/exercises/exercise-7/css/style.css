@@ -1,0 +1,33 @@
+
+.google {
+	font-size: 30px;
+	color:blue;
+}
+
+.car a{
+	display:block;
+}
+
+a:hover {
+	color: green;
+
+}
+
+.menu-bar ul ul {
+	display: block;
+}
+
+.menu-bar li:hover > ul {
+	display: none;
+}
+
+#whatever {
+width: 995px;
+height: 1500px; 
+background: url (../image/2.jpg);
+
+}
+
+#swapout img:hover {
+opacity: 0;
+}

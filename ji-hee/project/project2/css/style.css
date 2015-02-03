@@ -1,0 +1,541 @@
+img.indexpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px; }
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+body {
+  
+}
+
+
+#name {
+
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 50px;
+
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+	text-decoration: none;
+}
+
+#ex {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 200px;
+	
+}
+
+#sci {
+font-size: 50px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 200px;
+	color: #000099;
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
+
+#giraffe {
+	position: absolute;
+	padding-top: 0px;
+	z-index: -1;
+  opacity: 50%;
+}
+
+#polar{
+	right: 0;
+	position: absolute;
+	padding-top: 300px;
+	z-index: -1;
+	padding-bottom: 200px;
+  opacity: 50%;
+}
+
+#chunk {
+  width: 1070px;
+  height: 650px;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-bottom: 80px;
+  
+
+}
+
+#box1 {
+	width: 225px;
+	height: 630px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float:left;
+}
+
+
+.pic1 {
+  float: left;
+  height: 125px;
+  width: 225px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+/*SIDEPAN*/
+.first1 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.first1 img:hover {
+  margin-left: -225px;
+}
+
+.pic2 {
+  float: left;
+  height: 300px;
+  width: 225px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+/*VERTPAN*/
+.first2 img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.first2 img:hover {
+  margin-top: -300px;
+}
+
+.pic3 {
+  float: left;
+  height: 175px;
+  width: 225px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+/*SIDEPAN*/
+.first3 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.first3 img:hover {
+  margin-left: -225px;
+}
+
+
+
+#box2{
+	width: 125px;
+	height: 630px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+.pic4 {
+  float: left;
+  height: 350px;
+  width: 125px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+/*SIDEPAN*/
+.second1 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.second1 img:hover {
+  margin-left: -125px;
+}
+
+
+.pic5 {
+  float: left;
+  height: 260px;
+  width: 125px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+/*VERTPAN*/
+.second2 img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.second2 img:hover {
+  margin-top: -260px;
+}
+
+#box3{
+	width: 200px;
+	height: 630px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/*SIDEPAN*/
+.third1 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.third1 img:hover {
+  margin-left: -200px;
+}
+
+
+.pic6 {
+  float: left;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+/*VERTPAN*/
+.third2 img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.third2 img:hover {
+  margin-top: -300px;
+}
+
+.pic7 {
+  float: left;
+  height: 300px;
+  width: 200px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+/*SIDEPAN*/
+.third3 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.third3 img:hover {
+  margin-left: -200px;
+}
+
+
+.pic8 {
+  float: left;
+  height: 100px;
+  width: 200px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+#box4{
+ 
+    width: 325px;
+	height: 630px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+
+/*SIDEPAN*/
+.fourth1 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.fourth1 img:hover {
+  margin-left: -325px;
+}
+
+
+.pic9 {
+  float: left;
+  height: 150px;
+  width: 325px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+
+/*SIDEPAN*/
+.fourth2 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.fourth2 img:hover {
+  margin-left: -325px;
+}
+
+
+.pic10 {
+  float: left;
+  height: 250px;
+  width: 325px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+/*SIDEPAN*/
+.fourth3 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.fourth3 img:hover {
+  margin-left: -325px;
+}
+
+
+.pic11 {
+  float: left;
+  height: 95px;
+  width: 325px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+
+/*VERTPAN*/
+.fourth4 img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.fourth4 img:hover {
+  margin-top: -95px;
+}
+
+.pic12 {
+  float: left;
+  height: 95px;
+  width: 325px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+#box5{
+	width: 125px;
+	height: 630px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+/*VERTPAN*/
+.fifth1 img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.fifth1 img:hover {
+  margin-top: -200px;
+}
+
+.pic13 {
+  float: left;
+  height: 200px;
+  width: 125px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+/*SIDEPAN*/
+.fifth2 img {
+  margin-left: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.fifth2 img:hover {
+  margin-left: -125px;
+}
+
+
+.pic14 {
+  float: left;
+  height: 200px;
+  width: 125px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+/*VERTPAN*/
+.fifth3 img {
+  margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+}
+ 
+.fifth3 img:hover {
+  margin-top: -200px;
+}
+
+.pic15 {
+  float: left;
+  height: 200px;
+  width: 125px;
+  overflow: hidden;
+  margin: 5px;
+  display: block;
+}
+
+
+
+
+
+
+#picbox{
+
+	width:800px;
+	height:300px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+  
+
+
+
+}
+
+
+.explanation {
+  width: 300px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-right: 50px;
+	margin-left: auto;
+	margin-bottom: 100px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+  float:left;
+}
+
+
+#title1 {
+  font-weight: 700;
+}
+
+
+
+
+

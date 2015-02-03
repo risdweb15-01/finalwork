@@ -1,0 +1,57 @@
+body{
+
+	background-color: #A4A4A4;
+}
+
+p{
+
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	text-indent: 40pt;
+	font-size: 13pt;
+	line-height: 125%;
+
+}
+
+
+h2{
+	color:#F7819F;
+	text-align:center;
+	font-family: 'Slabo 27px', serif;
+}
+
+ul{
+	font-size: 14pt;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 125%;
+	color:white;
+	
+}
+
+#first{
+
+	background-color: white;
+	width: 300px;
+	height: 30px;
+
+
+
+}
+
+.hello{
+
+	background-color: white;
+	width: 300px;
+	height: 30px;
+
+}
+
+.hello h2{
+
+	color:blue;
+	text-align:center;
+	
+
+
+}

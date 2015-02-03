@@ -1,0 +1,22 @@
+.red{
+	position:relative;
+	width:100px;
+	height: 100px;
+	background-color: red;
+	float:left;
+}
+
+.white{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	float: left;
+
+}
+
+#containter{
+	width:800px;
+	height:800px;
+
+
+}
