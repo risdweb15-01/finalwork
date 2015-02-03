@@ -1,0 +1,38 @@
+#container {
+	position: relative;
+	width: 806px;
+	height: 1500px;
+}
+.boxmodel {
+	position: relative;
+	background-color: red;
+	height:500px;
+	width: 100px;
+	float: left;
+	margin: 1px;
+}
+.boxmodel2 {
+	position: relative;
+	background-color: red;
+	height: 150px;
+	width: 600px;
+	float: left;
+	margin: 1px;
+}
+.boxmodel3 {
+	position: relative;
+	background-color: red;
+	height: 348px;
+	width: 299px;
+	float: left;
+	margin: 1px;
+	
+}
+.boxmodel4 {
+	position: relative;
+	background-color: red;
+	height:500px;
+	width: 100px;
+	float: right;
+	margin: 1px;
+}

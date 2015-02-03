@@ -1,0 +1,196 @@
+#page {
+	height: 630px;
+	width: 4080px;
+}
+p {
+	font-family: Open Sans;
+	font-size: 72px;
+	letter-spacing: px
+}
+#hello {
+	margin-left: 950px;
+	margin-top: 260px;
+	font-family: Arial;
+	font-size: 120px
+}
+#office {
+	display: block;
+	height: 630px;
+	width: 1360px;
+	background-image: url(http://www.dextersinister.org/MEDIA/00288.jpg);
+	background-repeat: no-repeat;
+	background-size: 825px 630px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+#link1 {
+	text-decoration: none;
+}
+#contactspace {
+
+	height:330px;
+	width: 1360px;
+}
+#overlay1 {
+
+	height: 330px;
+	width: 1360px;
+	background:rgba(100,0,0,.75);
+	text-align: right;
+	font-family: Franklin Gothic Medium;
+	font-size: 72px;
+	text-decoration: none;
+	color: white;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+}
+#contactspace:hover #overlay1 {
+	opacity: 1;
+}
+#contactimg {
+	display: inline-block;
+	/*margin-top: -100px*/
+}
+#aboutspace {
+	height:300px;
+	width: 1360px;
+	float: left;
+}
+#overlay2 {
+
+	height: 300px;
+	width: 1360px;
+	background:rgba(0,50,10,.75);
+	text-align: right;
+	font-family: Franklin Gothic Medium;
+	font-size: 72px;
+	text-decoration: none;
+	color: white;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+}
+#aboutspace:hover #overlay2 {
+	opacity: 1;
+}
+#link2 {
+	text-decoration: none;
+}
+#aboutimg {
+	display: inline-block;
+}
+#about:hover {
+	display: block;
+}
+.sidemenu {
+	font-size: 24px;
+	font-family: Open Sans
+}
+
+#title {
+	text-align: center
+}
+#top {
+	background-color: rgb(45, 48, 145);
+	height: 630px;
+	width: 1360px;
+	float: left;
+}
+#what {
+	font-family: Franklin Gothic Medium;
+	margin-left: 150px;
+	margin-top: 200px
+}
+#tabletitle {
+	font-family: Franklin Gothic Medium
+}
+#logoalign {
+	height: 175px;
+	width: 1150px;
+	margin-left: 125px;
+
+}
+.fixedlogo {
+	position: relative;
+	height: 175px;
+	width: 136px;
+}
+#logo {
+	position: fixed;
+	height: 175px;
+	width: 136px;
+}
+#titleimg {
+	display: block;
+	width: 800px;
+	height: 212px;
+	margin-left: auto;
+	margin-right: auto
+}
+#titleblock {
+	display: block;
+	width: 810px;
+	height: 220px;
+	margin-left: auto;
+	margin-right: auto
+}
+#contents {
+	background-color: #f2d8bd;
+	color: black;
+	height: 630px;
+	width: 1360px;
+	font-family: Franklin Gothic Medium;
+	float: left;
+}
+.pages {
+	font-family: Franklin Gothic Medium;
+	font-size: 21px;
+	text-decoration: none;
+	color: black;
+	
+}
+.pages:hover {
+	color: yellow;
+}
+#container {
+	position: absolute;
+	height: 630px;
+	width: 650px;
+	margin-top: 30px;
+	margin-left: 40px
+}
+#container2 {
+	margin-right: 40px;
+	margin-top: 70px;
+	float: right;
+}
+#box {
+	margin: 2px;
+	position: relative;
+	height: 175px;
+	width: 136px;
+	float: left;
+	background-image: url(http://www.dextersinister.org/MEDIA/bs_POSITIVE.gif);
+	background-size: 136px 175px;
+}
+#overlay {
+	height: 175px;
+	width: 136px;
+	background:rgba(0,0,0,.75);
+	text-align: center;
+	font-family: Franklin Gothic Medium;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+}
+#box:hover #overlay {
+	opacity: 1;
+}
+#homebutton {
+	text-decoration: none;
+	font-family: Franklin Gothic Medium;
+	font-size: 18px;
+	color: white;
+}

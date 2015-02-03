@@ -1,0 +1,144 @@
+#page {
+	height: 630px;
+	width: 2730px
+}
+#pagenumber {
+	border: 2px solid black;
+	height: 630px;
+	width: 650px;
+	float: left;
+}
+#logopage {
+	height: 630px;
+	width: 650px;
+	float: left;
+	margin-left: 55px
+}
+#logoalign {
+	height: 300px;
+	width: 500px;
+	margin-top: 0;
+	margin-left: 50px;
+	float: left;
+}
+#logoalign2 {
+	height: 300px;
+	width: 510px;
+	margin-top: 320px;
+	margin-left: 50px
+}
+.fixedlogo {
+	position: relative;
+	height: 155px;
+	width: 120px;
+}
+#logo {
+	position: relative;
+	height: 155px;
+	width: 120px;
+	float: left;
+}
+#image {
+	background-color: black;
+	height: 630px;
+	width: 850px;
+	float: left;
+}
+#description {
+	background-color: black;
+	height: 630px;
+	width: 500px;
+	float: left;
+	margin-left: 15px
+}
+#cover {
+	margin-left: 150px;
+	margin-top: 20px
+}
+#label {
+	margin-left: 570px;
+	margin-top: -500px
+}
+h1 {
+	font-family: Arial;
+	color: white;
+}
+p {
+	color: white;
+	font-size: 18px;
+	width: 450px;
+	margin-left: 10px;
+}
+#no {
+	color: black;
+	font-size: 72px;
+	float: right;
+	margin-top: 100px;
+	margin-left: 500px;
+}
+.info {
+	color: gray;
+	text-align: right;
+	font-family: Franklin Gothic Medium;
+	text-decoration: none;
+}
+.info:hover {
+	color: black;
+	font-style: italic;
+}
+#box {
+	border: 2px solid red;
+	position: fixed;
+	height: 155px;
+	width: 120px;
+	margin-left: 374px;
+	margin-top: 159px;
+	float: left;
+	background-image: url(http://www.dextersinister.org/MEDIA/bs_POSITIVE.gif);
+	background-size: 120px 155px;
+}
+#box2 {
+	margin: 2px;
+	position: relative;
+	height: 155px;
+	width: 120px;
+	float: left;
+	background-image: url(http://www.dextersinister.org/MEDIA/bs_POSITIVE.gif);
+	background-size: 120px 155px;
+}
+#overlay {
+	height: 155px;
+	width: 120px;
+	background:rgba(0,0,0,.75);
+	text-align: center;
+	font-family: Franklin Gothic Medium;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+}
+#overlay2 {
+	height: 155px;
+	width: 120px;
+	background:rgba(100,100,0,.75);
+	text-align: center;
+	font-family: Franklin Gothic Medium;
+	font-size: 24px;
+	text-decoration: none;
+	color: white;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+}
+#box:hover #overlay2 {
+	opacity: 1;
+}
+#box2:hover #overlay {
+	opacity: 1;
+}
+#homebutton {
+	text-decoration: none;
+	font-family: Franklin Gothic Medium;
+	font-size: 18px;
+	color: white;
+}
