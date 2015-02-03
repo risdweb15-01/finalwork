@@ -1,14 +1,50 @@
 *{
 font-family: 'Open Sans', sans-serif;
 }
+body{
+background-image: url(..//img/background-bubble.jpg) ;
+background-repeat: repeat;
+z-index: -1;
+width:100%;
 
-a{
-	color:black;
 }
-.logo-everything{
-	position:fixed;
-	top:-5%;
-}
+
+     .logo-everything{
+	  width:100%;
+	  z-index:1;
+	  position:fixed;
+	  top:-5%;
+     }
+
+
+    .logo {
+       width:41%; 
+      margin:auto;
+      position:relative;
+      font-size:100%;
+      z-index:1;
+
+       }
+
+ 	#bubble img {
+	   width: 100%;
+	   margin:auto;
+	   margin-top:3%;
+	   display:block;
+	   z-index:1;
+	   }
+
+	#logo-text{
+	   position:absolute;
+	   z-index:1;
+	   width: 100%;
+	   margin:auto;
+	   top:25%;
+	   left:3%;
+	   text-align:center;
+	   font-size:6vmax;
+	   }
+
 #logo-text{
  font-weight:800;
  /*Original still gradient color*/
@@ -35,16 +71,26 @@ a{
 
 #yellowtag{
 	position:fixed;
-	width:250px;
-	height:50px;
+	width:20%;
+	height:10%;
 	background-color:#FFE000;
 	color:#252525;
 	z-index:2;
 	font-family: 'Open Sans', sans-serif;
     font-weight:400;
     text-align:center;
-
+    top:12%;
+	left:20%;
 }
+ #yellowtag-text{
+	    position:absolute;
+	    width: 100%;
+	    max-height:100%;
+	    margin:auto;
+	    text-align:center;
+	    font-size:3vmin;
+	    }
+
 
 #logo{
 	position:fixed;
@@ -54,6 +100,13 @@ a{
 	color:#9C9B97;
 	z-index:0;
 	position:relative;
+	display:block;
+	margin:auto;
+	padding-top:13%;
+	padding-left:30%;
+	padding-right:30%;
+	width:40%;
+	height:50%;
 }
 
 #main-text{
@@ -62,26 +115,44 @@ a{
 	z-index:0;
 	position:relative;
 	font-size: 1vmax;
-	
+	display:block;
+	margin:auto;
+	padding-top:1%;
+	padding-bottom:1%;
+	padding-left:30%;
+	padding-right:30%;
+	width:40%;
+	height:14%;
 }
-
 
 #blank-two{
     	top:250%;
     	height:100%;
-    	
-		}
+}
+
 .blank{
-	background-color:white;
+	opacity:0;
 	position:absolute;
 	top:10px;
-	
+	width: 100%; 
+	height:50%;
+}
 
+#all-description{
+		width:100%;
+		top:40%;
+		position:absolute;
 }
+
 .speaker{
-	  
-	
+	    width:100%;
+    	height:200%;
+    	background-color:black;
+    	z-index:3;
+    	position:absolute;
+    	top:250%;
 }
+
 .speaker-headshot{
 	display:inline-block;
 	width:33%;
@@ -91,6 +162,24 @@ a{
 	z-index: 3;
 }
 
+ .speaker-float h2 {
+		 font-size:5vmin;
+  }
+       .speaker-float p {
+		 font-size:2.5vmin;
+  }
+
+     .speaker-float{
+		display:inline-block;
+		width:24%;
+		height:45%;
+		margin-top:2%;
+		margin-left:2.1%;
+		background-color:#212121;
+		z-index: 3;
+		padding:3%;
+		color:#D0D1D0;
+	    }
 /*.nametag{
 z-index:4;
 position:absolute;    
@@ -112,43 +201,27 @@ left:42%;
 #speaker3-head h1{
 left:75%;
 }*/
-#speaker1-head img{
-max-width:100%;
-max-height:100%;
-opacity:0.7;
-}
-#speaker1-head img:hover{
-opacity:0.0;
-}
+  .speaker-headshot img{
+	    	max-width:100%;
+	    	min-width:100%;
+	    	opacity:0.7;
+	    }
+
+   .speaker-headshot img:hover{
+			opacity:0.0;
+         }
 #speaker1-head:hover{
 background-image: url(..//img/sam.jpg);
 background-size:contain;
 background-repeat: no-repeat;
 }
 
-#speaker2-head img{
-max-width:100%;
-max-height:100%;
-opacity:0.7;
-}
-
-#speaker2-head img:hover{
-opacity:0.0;
-}
 #speaker2-head:hover{
 background-image: url(..//img/alex.jpg);
 background-repeat: no-repeat;
 background-size:contain;
 }
-#speaker3-head img{
-max-width:100%;
-max-height:100%;
-opacity:0.7;
-}
 
-#speaker3-head img:hover{
-opacity:0.0;
-}
 #speaker3-head:hover{
 background-image: url(..//img/emma.jpg);
 background-size:contain;
@@ -169,15 +242,16 @@ background-repeat: no-repeat;
 
 .topopout{
 	position:relative;
-	width:250px;
-	height:50px;
+	width: 65%;
+	height:10%;
+
 	left:55%;
 	background-color:#FFE000;
 	color:#212121;
 	z-index:3;
     font-weight:400;
     text-align:center;
-    font-size: 1.5em;
+    font-size:5vmin
     border:solid 2px;
     border-radius:0.4em;
     font-weight:bold;
@@ -185,6 +259,7 @@ background-repeat: no-repeat;
   box-shadow:#FFE000 3px 3px;
   transition:0.2s ease;
   cursor:pointer;
+
 }
 
 .topopout:active {
@@ -271,122 +346,108 @@ background-repeat: no-repeat;
 
 }
 
-
-
-@media screen and (max-width:1280px){
+/* Desktops and laptops ----------- */
+@media screen and (min-width:1280px){
 
 	.logo-everything{
 		width:100%;
-		z-index:1;
 	}
 
 	.logo {
-       width: 40%; 
-      margin:auto;
-      position:relative;
+       width: 41%; 
       font-size:100%;
-      z-index:1;
        }
    
 	#bubble img {
 	   width: 100%;
-	   margin:auto;
 	   margin-top:3%;
-	   display:block;
-	   z-index:1;
 	   }
 
 	#logo-text{
-	   position:absolute;
-	   z-index:1;
 	   width: 100%;
-	   margin:auto;
 	   top:25%;
 	   left:3%;
-	   text-align:center;
 	   font-size:6vmax;
 	   }
 
 	    #yellowtag{
-		width:18%;
+		width:20%;
+		height:9%;
 		top:12%;
-	    left:20%;
+	    left:16%;
+	    padding:0.5%;
 	    }
 
 	    #yellowtag-text{
-	    position:absolute;
-	    width: 100%;
-	    margin:auto;
-	    text-align:center;
-	    font-size:3vmin;
+	    max-width: 100%;
+	    max-height:100%;
+	   
 	    }
 
 		.blank{
 		width: 100%; 
 		height:50%;
+		opacity:0;
         }
 
     	#blank-two{
-    	top:220%;
-    	height:70%;
+    	top:200%;
+    	height:50%;
 		}
        .speaker{
     	width:100%;
-    	height:170%;
-    	background-color:black;
-    	z-index:3;
-    	position:absolute;
-    	top:250%;
+    	height:170%;;
+    	top:220%;
 		}
 
 		#all-description{
 		width:100%;
-		top:40%;
-		position:absolute;
+		top:43%;
 	    }
 
 		.description{
-		display:block;
-		margin:auto;
 		padding-top:13%;
 		padding-left:30%;
 		padding-right:30%;
 		width:40%;
 		height:50%;
+		font-size:1.5vmax;
 	
 		}
 
 		#main-text{
-		display:block;
-		margin:auto;
 		padding-top:1%;
 		padding-bottom:1%;
 		padding-left:30%;
 		padding-right:30%;
 		width:40%;
 		height:14%;
+	    font-size:1.2vmax;
 	    }
 
+	    .speaker-headshot{
+	    	width:33%;
 
+	    }
+	     .speaker-headshot img{
+	    	max-width:100%;
+	    	min-width:100%;
+	    }
 
 	    .speaker-float h2 {
-		 font-size:5vmin;
+		 font-size:4vmin;
         }
        .speaker-float p {
 		 font-size:2.5vmin;
         }
+
 	   .speaker-float{
-		display:inline-block;
 		width:24%;
-		height:45%;
+		height:40%;
 		margin-top:2%;
 		margin-left:2.1%;
-		background-color:#212121;
-		z-index: 3;
 		padding:3%;
-		color:#D0D1D0;
 	    }
-
 
 	    .topopout{
 	    width: 65%;
@@ -396,11 +457,208 @@ background-repeat: no-repeat;
 	    }
 
 }
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+	    #yellowtag{
+		width:20%;
+		height:10%;
+		top:12%;
+	    left:17%;
+	    }
+
+	    #yellowtag-text{
+	    max-width: 100%;
+	    max-height:100%;
+	    font-size:3vmin;
+	    }
 
 
- @media only screen and (max-device-width: 480px){
+ 		.speaker{
+    	width:100%;
+    	height:150%;;
+    	top:220%;
+		}
 
- }
+        .speaker-float{
+		width:28%;
+		height:42%;
+		margin-top:1%;
+		margin-left:1.5%;
+		padding:1%;
+	    }
+
+	    #speaker2{
+	    	margin-left:3%;
+	    }
+   		#speaker3{
+	    	margin-left:2%;
+	    }
 
 
+	    .speaker-float h2 {
+		 font-size:5vmin;
+		 padding-top:0;
+        }
+
+	    .topopout{
+	    width: 65%;
+	    height:10%;
+	    font-size:5vmin;
+		left:45%;
+	    }
+
+		.popout {
+
+		    width: 100%;
+		    max-width: 1200px;
+		    max-height: 720px;
+		}
+
+		.popout_content img{
+			float:left;
+			max-width:30%;
+		    max-height:30%;
+		}
+
+		.popout_content h2{
+			font-size:3vmax;
+		}
+
+		.video video{
+			width:650px;
+		}
+	.brands:hover{
+		  -webkit-transform: translate(600px, 0);
+		  -moz-transform: translate(600px, 0);
+		  -o-transform: translate(600px, 0);
+		  transform: translate(600px, 0);
+		}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 450px) {
+/* Styles */
+
+	#logo-text{
+	   width: 100%;
+	   top:26%;
+	   left:3%;
+	   font-size:6.5vmin;
+	   }
+	#blank-one{
+		width: 100%; 
+		height:20%;
+        }
+
+    #all-description{
+		width:100%;
+		top:30%;
+	    }
+
+	.description{
+		padding-top:0%;
+		padding-left:30%;
+		padding-right:30%;
+		width:40%;
+		height:40%;
+		font-size:2vmax;
+		}
+
+	#main-text{
+		padding-top:1%;
+		padding-bottom:1%;
+		padding-left:30%;
+		padding-right:30%;
+		width:40%;
+		height:20%;
+	    font-size:1.8vmax;
+	    }
+     .logo-everything{
+	     top:0%;
+	     }
+
+	  #yellowtag{
+		width:23%;
+		height:6.5%;
+		top:3%;
+	    left:15%;
+	    padding:0.1%;
+	    }
+
+	  #yellowtag-text{
+	    max-width: 100%;
+	    max-height:100%;
+	    font-size: 2.3vmin;
+	   
+	    }
+
+	    #blank-two{
+    	top:100%;
+    	height:0%;
+		}
+       .speaker{
+    	width:100%;
+    	height:90%;;
+    	top:185%;
+		}
+
+		 .speaker-headshot{
+	    	width:32%;
+
+	    }
+	     .speaker-headshot img{
+	    	max-width:100%;
+	    	min-width:100%;
+	    }
+
+	    .speaker-float h2 {
+		 font-size:2vmin;
+        }
+       .speaker-float p {
+		 font-size:2vmin;
+        }
+
+	   .speaker-float{
+		width:25%;
+		height:55%;
+		margin-top:2%;
+		margin-left:2.1%;
+		padding:2%;
+	    }
+
+	    .topopout{
+	    width: 75%;
+	    height:10%;
+	    left:10%;
+	    font-size:2.5vmin;
+	}
+		.popout {
+
+		    width: 100%;
+		    max-width: 300px;
+		    max-height: 200px;
+		}
+
+		.popout_content img{
+			float:left;
+			max-width:30%;
+		    max-height:30%;
+		}
+
+		.popout_content h2{
+			font-size:3vmin;
+		}
+
+		.video video{
+			width:200px;
+		}
+		.brands:hover{
+		  -webkit-transform: translate(100px, 0);
+		  -moz-transform: translate(100px, 0);
+		  -o-transform: translate(100px, 0);
+		  transform: translate(100px, 0);
+		}
+
+}
 

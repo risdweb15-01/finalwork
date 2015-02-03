@@ -1,0 +1,57 @@
+#button {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    background-color: #ABCDEF;
+    transition: background-color 0.5s ease;
+    font-size:25px;
+    padding:20px;
+    margin-top:20px;
+}
+
+.active {
+    background-color:#556677;
+}
+
+div {
+    display : inline-block;
+}
+.holdingbox {
+    position: relative;
+    top: 0;
+    margin-left: 200px;
+}
+
+.leftbox {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    font-size: 24px;
+    background-color: #ac193d;
+    color: #FFF;
+    font-weight: bold;
+    padding: 1px;
+}
+.rightbox {
+    position: relative;
+    display: inline-block;
+    overflow:hidden;
+    width: 0;
+    height: 30px;
+    vertical-align: top;
+    margin-right: 0;
+    background-color:lightblue;
+}
+.content{
+    width: 100px;
+    position: absolute;
+    background-color: yellow;
+    height: 29px;
+    left: 0;
+    top: 0;
+    right: 0;
+    color: #FFF;
+    padding-left: 5px;
+}
