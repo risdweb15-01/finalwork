@@ -2,6 +2,7 @@ a{cursor: pointer;}
 body{
 	width:100%;
 	height:auto;
+	background-color: #FFFFCC;
 }
 body h1{
 	font-family: Garamond;
@@ -36,4 +37,24 @@ li{list-style-type: none;}
 	font-weight: bold; 
 	font-size: 24px;
 	margin-bottom:20px;
+}
+@media screen and (max-width: 1300px) { 
+    body {
+      background-color: #FFCC99;      
+    }
+}
+@media screen and (max-width: 1000px) { 
+    body {
+      background-color: orange;      
+    }
+}
+@media screen and (max-width: 800px) { 
+    body {
+      background-color: lime;      
+    }
+}
+@media screen and (max-width: 800px) { 
+    body {
+      background-color: yellow;      
+    }
 }
