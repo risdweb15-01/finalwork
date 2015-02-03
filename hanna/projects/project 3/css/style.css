@@ -35,7 +35,8 @@ padding-left: 5%;
 .yellowborder{
   width: 100%;
   height: 20px;
-  top: 0px;
+  margin-top: 0px;
+  top:0px;
   background-color: #fef5e1;
 }
 
@@ -63,7 +64,7 @@ padding-left: 5%;
   position: relative;
   width: 100%;
 }
-.container section {
+.container .regular {
   width: 100%;
   height: 100vh;
   -webkit-flex: 1;
@@ -77,6 +78,25 @@ padding-left: 5%;
   overflow: hidden;
  
 }
+
+.container .longer{
+  width: 100%;
+  height: 120vh;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+
+
+
 .container section:nth-child(1) .image {
   background-image: url(file:///Users/HannaOh/Documents/Web%20Design/finalwork/hanna/projects/project%203/img/intro_image3.gif);
 }
@@ -93,7 +113,7 @@ padding-left: 5%;
   background-color:#2ebfc8;
 }
 .container section:nth-child(6) .image {
-  background-image: url(gray);
+  background-color: #474747;
 }
 .container section .image {
   background-attachment: fixed;
@@ -145,7 +165,7 @@ margin-top: -7vmin;
 }
 
 #arrow{
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 #arrow .scroll{
@@ -155,7 +175,7 @@ margin-top: -7vmin;
   visibility:hidden;
   font-size: 18px;
   font-family: Avenir;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 #arrow:hover .scroll{
@@ -202,27 +222,44 @@ h2{
           flex-wrap: nowrap;
   height: 100%;
   width: 100%;
-  max-width: 70%;
+  max-width: 75%;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
+  text-align: left;
   z-index: 10;
   color: white;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 17px;
   position: relative;
+}
+
+.q{
+  width: 45px;
+  height: 30px;
+  opacity: 0.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.q2{
+  width: 50px;
+  height: 35px;
+  opacity: 0.5;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blue{
 color: white;
+text-align: center;
 }
 
 .people{
   font-family: Avenir;
   font-size: 20px;
   font-weight: bold;
-  color: rgba(250,250,250,0.7);
+  color: rgba(250,250,250,0.9);
 }
 
 .container section .stuff {
@@ -253,67 +290,191 @@ color: white;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-
-
-  -webkit-align-items: center;
-  -ms-align-items: center;
-  align-items: center;
-
-  -webkit-flex-wrap: nowrap;
-      -ms-flex-wrap: nowrap;
-          flex-wrap: nowrap;
-
-  height: 70vmin;
-  width: 100vmin;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  max-width: 80%;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin: auto;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+  text-align: center;
   z-index: 10;
+  color: gray;
+  margin: 0 auto;
+  font-size: 18px;
+  position: relative;
 }
 
 .white{
   color:white;
-  padding-top: 70px;
-  font-size: 28px;
-  font-family: Avenir;
-  font-weight: bold;
+  text-align: center;
+  padding-right: 30%;
+  padding-left: 30%;
+  padding-top: 10%;
 }
+
 
 .coimage{
-  width:220px;
-  height:250px ;
+  width:250px;
+  height:280px;
+  border: 7px solid #e94e4e;
+
 }
 
-.ijlal{
- 
-  width: 220px;
-  height: 250px;
-  background-color:#fef5e1;
-  font-family: Avenir;
-  font-size: 10px; 
-  color: gray;
-    -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+
+.item{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  overflow:hidden;
+  margin: -30px;
 }
 
-.matt{
+.overlay {
+  position: absolute;
+  top: 100%; 
+  left:0; 
+  right:0px;
+  bottom: 0;
+  height: 87%;
+  width: 64.5%;
+  background: rgba(254,245,225,.8);
+  opacity: 0;
+  margin-left: 40px;
+  margin-top: 18px;
 
-  width: 220px;
-  height: 250px;
-  background-color:#e94e4e; 
+}
+
+h5{
+  color:#e94e4e;
+}
+
+.container section .last {
+  z-index: 10;
+  position:relative;
+  margin: auto;
+
+}
+
+
+
+
+.email{
+  background-color:#e94e4e;
+  position: relative;
+  float:left;
+  width: 96vmin;
+  height: 45vmin;  
+  text-align: center;
+}
+
+#info{
   font-family: Avenir;
-  font-size: 10px; 
+  font-size: 20px;
   color: white;
-    -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
+  margin-top: 20%
 }
+
+.ticket{
+  position: relative;
+  float:left;
+  background-color: #fef5e1;
+  width:32vmin;
+  height:40vmin;
+
+}
+
+.ticon{
+  height: 5vmin;
+  width: 10vmin;
+  margin-top:50%;
+}
+
+.risd{
+  position: relative;
+  float:left;
+  background-color: #c4c3c3;
+  width:32vmin;
+  height:40vmin;
+  margin:auto;
+}
+
+.ricon{
+  height: 10vmin;
+  width: 10vmin;
+  margin-top:45%;
+}
+
+.facebook{
+  position: relative;
+  float:left;
+  background-color: #2ebfc8;
+  width:32vmin;
+  height:40vmin;
+  margin:auto;
+}
+
+.ficon{
+  height: 10vmin;
+  width: 5vmin;
+  margin-top:45%;
+}
+
+.map{
+  position: relative;
+  float:left;
+  height: 85vmin;
+  width: 100vmin;
+}
+
+
+.overlay, .overlay span {
+  transition: top .5s, opacity .7s, margin-top .8s;
+}
+
+.overlay span {
+  display: inline-block;
+  height: 10%;
+  width: 90%;
+  color: #e94e4e;
+  text-decoration: none;
+  line-height: 1;
+  word-wrap:break-word;
+  line-height: 1;
+  opacity: 0;
+  font-family: Avenir, sans-serif;
+  font-size: 16px;
+  font-weight: 600px;
+
+}
+
+.overlay span:before {
+  content: "";
+  display:inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 1px;
+}
+.item:hover .overlay,
+.overlay:focus {
+  top: 0;
+  opacity: 1;
+}
+
+.item:hover .overlay span,
+.overlay:focus span {
+  opacity: 1;
+  margin-top: 0; 
+}
+
+
 .container section .stuff h2 {
   margin: 0px;
 }
@@ -324,5 +485,14 @@ color: white;
   background-color: #d35400;
   content: "";
   margin: 30px 0;
+}
+
+.container section .stuff2:before, .container section .stuff2:after {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color: white;
+  content: "";
+  margin: 13px 0;
 }
 
