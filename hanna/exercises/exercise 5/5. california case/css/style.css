@@ -14,29 +14,29 @@
 	float:left;
 }
 
-.container3 {
-	width: 24px;
-	height: 114px;
-	float:left;
-	}
+.littlebox{
+	width:24px;
+	height:114px;
+	float: left;
+}
 
 
 .container2 {
-	width: 192px;
-	height: 114px;
+	width: 48px;
+	height: 399px;
 	float:left;
 	}
 
 
 .container4 {
-	width: 192px;
-	height: 171px;
+	width: 48px;
+	height: 399px;
 	float:left;
 	}
 
 .container5 {
-	width: 144px;
-	height: 171px;
+	width: 48px;
+	height: 399px;
 	float:left;
 	}
 
@@ -71,7 +71,7 @@
 	border:1px solid #ffffff;
 }
 
-#longred {
+.longred{
 	position: relative;
 	width: 46px;
 	height: 169px;
