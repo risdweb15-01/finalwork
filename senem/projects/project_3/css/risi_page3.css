@@ -1,0 +1,265 @@
+body{
+	background-image: url(../img/background_risi.png);
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 300px;
+	
+}
+
+.gif {
+    
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container{
+	
+	height: 250%;
+	width:  250%;
+	
+	
+}
+
+	@media screen and (max-width: 600px){ 
+		.container{
+			float: none;
+			margin:0;
+			width: 100%;
+
+		}
+	}
+
+.titlebox{
+	height: 600px;
+	width:  200px;
+	margin-left: 15px;	
+}
+
+.title{
+	height: 50px;
+	width:  200px;	
+}
+
+.title2{
+	margin-top: 25px;
+	margin-left: 5px;
+	height: 350px;
+	width:  200px;	
+}
+
+.title3{
+	margin-top: -175px;
+	margin-left: 5px;
+	height: 350px;
+	width:  200px;	
+}
+
+.circlebox{
+	position:fixed;
+	height: 750px;
+	width:  750px;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 1;
+}
+	@media screen and (max-width: 900px){ 
+		.circlebox{
+			margin:auto;
+			width: 600px;
+			height: 600px;
+
+		}
+	}
+
+		@media screen and (max-width: 600px){ 
+		.circlebox{
+			margin:auto;
+			width: 450px;
+			height: 450px;
+
+		}
+	}
+
+.circle1{
+	position: fixed;
+	height: 750px;
+	width:  750px;
+	border-radius: 100%;
+	border:solid 1px white;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 2;
+}
+
+	@media screen and (max-width: 900px){ 
+		.circle1{
+			margin: auto;
+			width: 600px;
+			height: 600px;
+
+		}
+	}
+
+	@media screen and (max-width: 600px){ 
+		.circle1{
+			margin:auto;
+			width: 450px;
+			height: 450px;
+
+		}
+	}
+.circle1red{
+	border:solid 1px red;
+}
+
+.circle2{
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width:700px;
+    height:700px;
+	border-radius: 100%;
+	border:solid 1px white;
+	position: fixed;
+	z-index: 3;
+}
+
+	@media screen and (max-width: 900px){ 
+		.circle2{
+			margin: auto;
+			width: 550px;
+			height: 550px;
+
+		}
+	}
+
+	@media screen and (max-width: 600px){ 
+		.circle2{
+			margin:auto;
+			width: 400px;
+			height: 400px;
+
+		}
+	}
+
+.circle3{
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	width:650px;
+    height:650px;
+	border-radius: 100%;
+	border:solid 1px white;
+	position: fixed;
+	z-index: 4;
+}
+
+	@media screen and (max-width: 900px){ 
+		.circle3{
+			margin: auto;
+			width: 500px;
+			height: 500px;
+
+		}
+	}
+
+	@media screen and (max-width: 600px){ 
+		.circle3{
+			margin:auto;
+			width: 350px;
+			height: 350px;
+
+		}
+	}
+
+.dot{
+	background-color: white;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    z-index: 9;
+}
+
+	@media screen and (max-width: 900px){ 
+		.dot{
+    margin-top: 0%;
+	margin-left: -2.5%;
+
+		}
+	}
+
+
+.sun{
+	
+    width:75%;
+    height:75%;
+    margin-top: 12.3%;
+    margin-left: 12.3%;
+    position: relative;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration:15s;
+    z-index: 8;
+}
+
+@-webkit-keyframes orbit { 
+from { -webkit-transform:rotate(0deg) } 
+to { -webkit-transform:rotate(360deg) } }
+
+
+.dot2{
+	background-color: white;
+    width:30px;
+    height:30px;
+    margin-left: -2.5%;
+    margin-top: 79%;
+    border-radius:50%;
+    z-index: 10;
+
+}
+
+	@media screen and (max-width: 900px){ 
+		.dot2{
+			margin-left: -0.5%;
+    		margin-top: 79%;
+
+		}
+	}
+
+	@media screen and (max-width: 600px){ 
+		.dot2{
+			margin-left: 5.5%;
+    		margin-top: 79%;
+
+		}
+	}
+
+.dot3{
+	background-color: yellow;
+    width:30px;
+    height:30px;
+    margin-top: -29%;
+	margin-left: 104%;
+    border-radius:50%;
+    z-index: 10;
+}
+
+	@media screen and (max-width: 900px){ 
+		.dot3{
+    margin-top: -29%;
+	margin-left: 99.5%;
+
+		}
+	}
+
+	@media screen and (max-width: 600px){ 
+		.dot3{
+    margin-top: -69%;
+	margin-left: 95%;
+
+		}
+	}

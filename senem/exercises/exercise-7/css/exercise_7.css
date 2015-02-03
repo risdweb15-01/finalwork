@@ -1,0 +1,7 @@
+.menu-bar ul ul{ 
+	display: none;
+}
+
+.menu-bar li:hover> ul{ 
+	display: block;
+}

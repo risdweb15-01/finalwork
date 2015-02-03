@@ -1,0 +1,23 @@
+#container{
+	width: 800px;
+	height: 800px;
+	background-color: white;
+	margin: auto;
+}
+
+
+
+.box1{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	float:left;
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	float:left;
+}
