@@ -1,0 +1,54 @@
+
+.scroll{
+width:400px;
+position:relative;
+  z-index:2;
+  float:right;
+  margin:100px 175px 0px 0px;
+}
+
+.tbox{
+ display:inline;
+  width: 700px;
+  height:700px;
+ background-color: gray;
+  background: rgba(216, 220, 229, 0.7);
+  position:relative;
+  z-index:3;
+ margin-bottom: 150px;
+  border-radius: 100%;
+  float:right;
+ 
+}
+
+h2{
+  padding:50px 30px 0px 30px;
+  font-family:Cabin Sketch;
+  font-size:60px;
+  text-align:center;
+}
+p{
+  padding: 0px 25px 0px 35px;
+  text-indent:40px;
+}
+
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
