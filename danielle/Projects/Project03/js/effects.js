@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	 $('.about').hover(function(){
+	$.about p =$
+	 $('.about p').hover(function(){
         $(this).addClass('active');
     },
     function(){

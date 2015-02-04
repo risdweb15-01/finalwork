@@ -45,48 +45,49 @@ body, html, main {
 
 }
 
+
+
 .title{
+
+
   display:flex;
   flex-wrap:wrap;
   max-width:500px;
-  margin-left:150px;
-float:left;
-
+  margin-left: 15px;
+  float:left;
 }
+
 
 .sec {
+
   margin-top: 100px;
-line-height: 100px;
+  line-height: 100px;
   color:black;
-  font-size:16em;
+  font-size:250px;
   float:left;
   font-family:Londrina Outline;
-  max-width: 16em;
-  min-width:4em;
+  
 }
 
+
 .about{
-margin-top: 250px;
+margin-top: 300px;
 float:left;
 width: 400px;
-height:300px;
-position:center center;
+height:200px;
 overflow:scroll;
 }
 
 .active{
-  background-color: red;
+  background-color: #556677;
 }
 
-h1{
-  font-family:Cabin Sketch;
-}
 
 .about p{
   text-indent:15px;
   text-align:left;
   font-family: Codystar;
-  font-size: 1em;
+  font-size: 20px;
   color:black;
   line-height: 25px;
 }
@@ -101,24 +102,34 @@ h1{
   min-height: 100%;
 }
 
-
-
-
-.flex-container {
-  float:left;
-display:flex;
-flex-wrap:wrap;
-margin-top: 20px;
-
+/*medium sizes*/
+@media all and (min-width: 600px){
+  .flex-item1{flex: 1 auto;}
+  .flex-item2{flex:1 auto;}
 }
 
+.flex-container {
+    display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+
+  text-align: center;
+
+}
+.flex-container > * {
+  padding: 0px;
+  flex: 1 100%;
+}
 
 .flex-item1{
+
   float:left;
-margin-left: 440px;
-margin-right: 185px;
-width:300px;
-height:300px;
 
 }
 
@@ -126,12 +137,11 @@ height:300px;
 .flex-item1 p{
   position:relative;
   background: none;
+  margin-left:30px;
   margin-top: 120px;
-  padding-left: 50px;
-  float:left;
   font-family: Londrina Outline;
   font-weight: bold;
-  letter-spacing: 30px;
+  letter-spacing: 15px;
   color: black;
   font-size: 40px;
   
@@ -146,7 +156,7 @@ float:left;
 
   position:relative;
   background: none;
-  margin-top: 120px;
+  margin-top: 20px;
   padding-left: 40px;
   font-family: Londrina Outline;
   font-weight: bold;
@@ -183,7 +193,7 @@ margin-left:30px;
 margin-top: 5px;
 }
 
-p{
+.circle p{
   position:relative;
   font-family: Londrina Outline;
   font-size: 64px;
