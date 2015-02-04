@@ -1,0 +1,97 @@
+
+    body {
+    text-align: center; 
+}
+
+
+    a .link {
+       	margin-top: 200px;
+		color: black;
+		font-family: arial;
+		font-size: 250pt;
+		margin-left:220pt;
+		margin-right: auto;
+		letter-spacing: 7px;
+		float:left;
+		text-decoration: none;
+	
+}
+
+	a .L:visited {
+    color: black;
+    text-decoration: none;
+}
+
+	a .L:hover {
+    color: #7CFC00;
+  	background-image: url('image/book.jpg'); 
+  	background-repeat: no-repeat;
+  	background-position: left bottom;
+}
+
+
+    a:link {
+       	margin-top: 200px;
+		color: black;
+		font-family: arial;
+		font-size: 250pt;
+		margin-left:220pt;
+		margin-right: auto;
+		letter-spacing: 7px;
+		float:left;
+		text-decoration: none;
+	
+}
+
+	a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+	a:hover {
+    color: #7CFC00;
+  	background-image: url('image/web.jpg'); 
+  	background-repeat: no-repeat;
+  	background-position: left bottom;
+  
+  
+}
+
+
+
+
+    .letterL:hover {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-top: 100px;
+
+
+}
+
+
+ .letterS {
+    	margin-top: 200px;
+		color: black;
+		font-family: arial;
+		font-size: 250pt;
+		margin-left: auto;
+		margin-right: auto;
+		letter-spacing: 7px;
+		float:left;
+}
+
+ .letterT {
+    	margin-top: 200px;
+		color: black;
+		font-family: arial;
+		font-size: 250pt;
+		margin-left: auto;
+		margin-right: auto;
+		letter-spacing: 7px;
+		float:left;
+}
+
+
+
+

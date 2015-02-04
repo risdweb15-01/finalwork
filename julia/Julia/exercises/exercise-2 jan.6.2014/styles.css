@@ -1,0 +1,29 @@
+
+body{
+	background-color: #fdfaec;
+}
+
+
+
+
+p {
+	color:#ADD8E6;
+	font-family: Arial;
+	font-size: 10.5pt;
+}
+
+#box{
+	background-color: white;
+	font-family: impact, sans-serif;
+	font-size:13pt;
+	
+}
+
+#box p{
+	background-color: yellow;
+	width: 500px;
+	height: 100px;
+	font-family: impact, sans-serif;
+	font-size:35pt;
+
+}

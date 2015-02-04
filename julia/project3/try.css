@@ -1,0 +1,23 @@
+div #bg{
+	display: inline;
+	text-align: center;
+
+}
+
+
+.container{
+	margin:0 auto;
+
+}
+
+img{
+	width:150px;
+	height:150px;
+}
+
+.name1 {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	z-index: 10;
+}

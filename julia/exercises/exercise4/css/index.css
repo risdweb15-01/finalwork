@@ -1,0 +1,19 @@
+
+    .hello ul ul{
+    color:red;
+    text-decoration:underline;
+}
+
+	.hello li:hover > ul {
+		display:block;
+	}
+
+.pictures{
+	margin-top:50px;
+	height:500px;
+	width:100px;
+	height:30px;
+}
+
+
+	

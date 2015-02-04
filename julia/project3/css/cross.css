@@ -1,0 +1,17 @@
+
+#mainContainer {
+                background-color: gray;
+                margin: 0 0 0 0;
+                width: 100%;
+            }
+            #mainContainer > h1 {
+                text-align: center;
+                font-family: Helvetica, Arial, sans-serif;
+                color: rgb(107, 199, 184);
+            }
+            .arrow {
+                margin-top: 200px;
+            }
+            #menuContainer .row > div.col-md-2 {
+                background-color: white;
+            }

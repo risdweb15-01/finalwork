@@ -1,0 +1,68 @@
+
+
+
+
+body {
+    background-image: url("exhibition.jpg");
+    background-color: #F5F5F5;
+   
+}
+
+
+.logo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.pictures1 {
+	position: relative;
+	float: left;
+	padding:10px;
+
+
+}
+
+
+
+
+.container{
+	padding-left: 230px;
+	padding-right: 20%;
+	padding-bottom: 200px;
+	padding-top: 0px;
+	margin: 0 auto;
+	float:left;
+	display: block;
+	position: relative;
+
+}
+
+
+
+
+a:link {
+ 	font-family: arial;
+ 	color: #9ACD32;
+
+
+ }
+
+a:visited {
+    color: #FF00FF;
+}
+
+a:hover {
+    color: #7FFF00;
+}
+
+p {
+
+ 	font-family: 'Archivo Narrow', bold sans-serif;
+ 	font-size: 20px;
+ 	position: relative;
+ 	margin-top: 0px;
+ 	margin-left: 0px;
+}
+
+

@@ -1,0 +1,14 @@
+.menu-bar ul ul{
+	display:block;
+}
+
+.menu-bar li:hover > ul{
+	display:block;
+}
+
+.pictures {
+	margin-top: 100px;
+	height:300px;
+	width:100px;
+	height:30px;
+}
