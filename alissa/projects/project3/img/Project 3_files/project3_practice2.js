@@ -9,8 +9,7 @@ $(document).ready(function(){
     }
   );
       $('.holdingbox').hover(function(){
-        $('.rightbox').animate({width: '100px'}, 1000)
+        $('.rightbox').animate({width: '200px'}, 1000)
     }, function(){
-        $('.rightbox').animate({width: '-0'}, 1000)
   });
 });

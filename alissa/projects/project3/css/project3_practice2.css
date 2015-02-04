@@ -29,7 +29,7 @@ div {
     left: 0;
     display: inline-block;
     font-size: 24px;
-    background-color: #ac193d;
+    background-color: tomato;
     color: #FFF;
     font-weight: bold;
     padding: 1px;
@@ -47,7 +47,7 @@ div {
 .content{
     width: 100px;
     position: absolute;
-    background-color: yellow;
+    background-color: lightpink;
     height: 29px;
     left: 0;
     top: 0;
