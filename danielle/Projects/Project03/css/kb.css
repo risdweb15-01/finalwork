@@ -1,4 +1,3 @@
-
 .tbox{
   width: 700px;
   height:700px;
@@ -15,13 +14,13 @@ position:relative;
 .scroll{
  
 width:700px;
-height:300px;
+height:200px;
 display:flex;
 flex-wrap:wrap;
   z-index:3;
   float:right;
 margin-top: 10px;
-margin-bottom: 20px;
+
 background:none;
   overflow:scroll;
 
@@ -33,7 +32,7 @@ background:none;
   height:100px;
   width:100px;
    margin-left: 300px;
-   margin-top: 50px;
+   margin-top: 80px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -71,7 +70,6 @@ background:none;
 }
 
 .img-container2{
-  flex-wrap:wrap;
   position:relative;
   height:100px;
   width:100px;
@@ -118,7 +116,6 @@ background:none;
 }
 
 .img-container4{
-  flex-wrap:wrap;
   position:relative;
   height:150px;
   width:150px;
@@ -135,7 +132,7 @@ background:none;
   height:100px;
   width:100px;
   z-index:5;
-margin-top: -170px;
+margin-top: -140px;
   left:70%;
   border-radius: 100%;
 
