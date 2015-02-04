@@ -1,51 +1,166 @@
 
 .rich1{
-  width: 50%;
+  width: 100%;
   background-size: cover;
   background-position: fixed;
   height:auto;
   float:left;
   z-index: -1;
   overflow: none;
+  padding-top: 50px;
+
 }
 
 .rich2{
   width: 50%;
-  max-width:100%;
-  background-size: cover;
+  max-width:100%; 
   background-position: fixed;
   height:auto;
   float:left;
-  opacity: 0.8;
   z-index: -1;
+              padding-top: 10px;
+
+
 }
 
 .rich3{
   width:50%;
   max-width:100%;
-  background-size: cover;
   background-position: fixed;
   height:auto;
   float:right;
-  opacity: 0.8;
   z-index: -1;
+              padding-top: 10px;
+
 }
 
 .rich4{
   width: 50%;
   max-width:100%;
-  background-size: cover;
+ 
   background-position: fixed;
   height:auto;
   float:right;
-  opacity: 0.8;
   z-index: -1;
+              padding-top: 10px;
+
 }
+
+.rich6{
+  width: 50%;
+  max-width:100%;
+ 
+  background-position: fixed;
+  height:auto;
+  float:right;
+  z-index: -1;
+              padding-top: 10px;
+
+}
+
+
+.highlight{
+  background:yellow;
+}
+
+.logo4{
+  position: fixed;
+  top:300px; left:-200px;overflow:auto;
+  width:26%;
+  float:left;
+  padding:10px;
+  height:auto;
+  z-index:0;
+  cursor: pointer;
+
+    -webkit-animation: rotation 8s linear infinite;
+    -moz-animation: rotation 8s linear infinite;
+    -ms-animation: rotation 8s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
+}
+
+
+.logo5{
+  position: fixed;
+  top:90px; left:1100px;overflow:auto;
+  float:left;
+  padding:10px;
+  width:90px;
+  height:auto;
+  z-index:0;
+  cursor: pointer;
+
+    -webkit-animation: rotation 8s linear infinite;
+    -moz-animation: rotation 8s linear infinite;
+    -ms-animation: rotation 8s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
+}
+
+
+.logo6{
+  position: fixed;
+  top:650px; left:1190px;overflow:auto;
+  float:left;
+  padding:10px;
+  width:100px;
+  height:auto;
+  z-index:0;
+  cursor: pointer;
+
+    -webkit-animation: rotation 6s linear infinite;
+    -moz-animation: rotation 6s linear infinite;
+    -ms-animation: rotation 6s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
+}
+@-ms-keyframes rotation {
+    0%   { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
 
 
 ul#menu{
   position:fixed;
-  top:30px;
+ top:-12px;
   left:50px;
   width:25%;
   height:0em;
@@ -83,8 +198,8 @@ label:after{
   right:5px;
   width:0;
   height:0;
-  border-top:4px solid rgba(255,255,255,.5);
-  border-bottom:0 solid rgba(255,255,255,.5);
+  border-top:4px solid ;
+  border-bottom:0 solid ;
   border-left:4px solid transparent;
   border-right:4px solid transparent;
   transition:border-bottom .1s, border-top .1s .1s;
@@ -114,11 +229,12 @@ input:checked ~ ul.submenu{
 
 .submenu{
 
-  font-family: Open sans, sans-serif;
+font-family: "Suranna" sans-serif;
   font-size: 14px;
   color:black;
-  line-height: 17px;
+  line-height: 16px;
   text-align: left;
+  position: absolute;
 
 }
 
@@ -132,8 +248,11 @@ ul.submenu{
   box-shadow:0 0 1px rgba(0,0,0,.3);
   transition:max-height 0.5s ease-out;
   position:absolute;
-  min-width:95%;
+  max-width:81%;
   z-index: 2;
+  padding-left: 10px;
+  padding-right: 10px;
+   height:470px;
 
  
 }
@@ -170,81 +289,199 @@ ul.submenu li a:hover{
 
 .text4{
 
-  @media screen and (max-width: 1200px);
+
             position:fixed;
             text-decoration: none;
-            left:60%;
-            top:5%;
+            left:63%;
+            top:2%;
             float:right;
-            letter-spacing: 3px;
+            letter-spacing: 2px;
             width:80%;
             font-size: 15px;
             font-family:"Suranna";
-            color:white;
+            color:black;
     
 
     }
 
     .text7{
 
-  @media screen and (max-width: 1200px);
+
             position:fixed;
             text-decoration: none;
-            left:65.5%;
-            top:5%;
+            left:68%;
+            top:2%;
             float:right;
             letter-spacing: 1.5px;
             width:80%;
             font-size: 15px;
             font-family:"Suranna";
-            color:white;
+            color:black;
     }
 
 
     .text5{
 
-  @media screen and (max-width: 1200px);
+
             position:fixed;
             text-decoration: none;
-            left:76.5%;
-            top:5%;
+            left:78.5%;
+            top:2%;
             float:right;
             letter-spacing: 1.5px;
             width:80%;
             font-size: 15px;
             font-family:"Suranna";
-            color:white;
+            color:black;
     }
 
 
     .text6{
 
-  @media screen and (max-width: 1200px);
+
             position:fixed;
             text-decoration: none;
-            left:86%;
-            top:5%;
+            left:88%;
+            top:2%;
             float:right;
             letter-spacing: 1.5px;
             width:80%;
             font-size: 15px;
             font-family:"Suranna";
-            color:white;
+            color:black;
     }
 
 a.text7:hover {
-color:gray;
+color:#A8A8A8;
 }
 a.text4:hover {
-color:gray;
+color:#A8A8A8;
 }
 a.text5:hover {
-color:gray;
+color:#A8A8A8;
 }
 
 a.text6:hover {
-color:gray;
+color:#A8A8A8;
 }
 
-/* @import Rule */
-@import url(p2.css) all and (max-width: 3000px) {...}
+
+@media screen and (max-width: 400px){
+
+    .rich1{
+             position:absolute;
+             top:9%;
+              width: 96%;
+             padding-right: 3px;
+
+
+    }
+
+    .rich3{
+             position:absolute;
+             top:57%;
+            width: 96%;
+             padding-right: 3px;
+
+
+    }
+
+    .rich2{
+             position:absolute;
+             top:130%;
+             width: 96%;
+             padding-right: 3px;
+
+
+    }
+
+    .rich4{
+             position:absolute;
+             top:203%;
+              width: 96%;
+             padding-right: 3px;
+
+    }
+
+  .rich6{
+             position:absolute;
+             top:270%;
+              width: 96%;
+             padding-right: 3px;
+
+    }
+
+    .text4{
+             font-size: 70%;
+             left:5%;
+             top:1.5%;
+             position:absolute;
+            
+    }
+
+    .text7{
+             font-size: 70%;
+             left:17%;
+             top:1.5%;
+              position:absolute;
+
+    }
+
+    .text5{
+             font-size: 70%;
+             left:46%;
+             top:1.5%;
+              position:absolute;
+
+    }
+
+    .text6{
+             font-size: 70%;
+             left:70%;
+              top:1.5%;
+               position:absolute;
+
+    }
+
+    
+
+    #check01{
+
+            font-size: 50%;
+
+    }
+
+    ul#menu{
+            left:1.5%;
+            top:30px;
+            width:100%;    
+
+    }
+
+    section, aside {
+            float: none;
+            width: auto;
+  }
+
+  .logo4{
+  position: fixed;
+  top:400px; left:300px;
+  width:70px;
+}
+
+  .logo5{
+  position: fixed;
+  top:75px; left:300px;
+  width:70px;
+}
+
+.logo6{
+  position: fixed;
+  top:250px; left:23px;
+  width:70px;
+
+
+}
+
+
+
