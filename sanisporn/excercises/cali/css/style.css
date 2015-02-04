@@ -1,0 +1,29 @@
+body {
+    background-color:white;
+}
+div {
+    border: 1px solid white;
+    float: left;
+}
+.container {
+    width: 176px;
+    padding: 10px;
+    background-color: red;
+    border: 0px;
+}
+.cell {
+    width: 20px;
+    height: 30px;
+}
+.left {
+    border-left: 1px solid transparent;
+}
+.right {
+    border-right: 1px solid transparent;
+}
+.top{
+    border-top: 1px solid transparent;
+}
+.bottom {
+    border-bottom: 1px solid transparent;
+}

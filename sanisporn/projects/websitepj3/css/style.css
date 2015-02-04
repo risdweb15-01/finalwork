@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .navbar-collapse {
     height: auto;
     border-top: 0;
@@ -16,6 +16,9 @@
   .navbar-collapse.in {
     overflow-x: visible;
   }
+  .reduce{
+	margin-top: -20%;
+}
 
 .navbar
 {
@@ -25,6 +28,7 @@
 	background: rgba(0, 0, 0, 0.3);
 	border: 0px;
 	color:white;
+	font-family: 'Helvetica', sans-serif;
 }	
 
 .navbar-fix
@@ -45,18 +49,109 @@
 .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: 0;
 }
+.intro{
+	text-align: right;
+}
+.port{
+	padding-bottom: 5%;
+	margin-top: 0%;
+}
+h1{
+	font-size: 7.8em;
+	/*font-family: 'Droid Serif', serif;*/
+	padding-top: 25%;
+	padding-bottom: 5%
+}
+h2{
+	margin-top: -7%;
+	font-size: 6.5em;
+	margin-bottom: 7%;
+	/*line-height: 0.4em;*/
+}
+h3{
+	font-size: 2.8em;
+	padding-top: 2%;
+}
+h6{
+
+	font-size: 8em;
+	
+	padding-top: 25%;
+	
+
+}
+h4{
+	font-size: 6.5em;
+	font-weight: 400;
+	padding-top: 30%;
+	padding-bottom: 7%;
+}
+h5{
+	font-size: 2em;
+	font-weight: 300;
+	
+}
+.namepic{
+	font-weight: 300;
+	font-size: 4em;
 }
 
-@media (max-width: 768px){
+}
+
+@media (max-width: 1000px){
 	.navbar-default{
 		background: rgba(0, 0, 3, 1);
 		border: 0px;
+		font-family: 'Helvetica', sans-serif;
 	}
 	.navbar{
 		background: rgba(0, 0, 3, 1);
 		border: 0px;
 	}
+	.reduce{
+	margin-top: -20%;
+}
 
+.intro{
+	text-align: right;
+}
+h1{
+	font-size: 5.8em;
+	/*font-family: 'Droid Serif', serif;*/
+	padding-top: 25%;
+	padding-bottom: 5%
+}
+h2{
+	margin-top: -7%;
+	font-size: 4.5em;
+	margin-bottom: 7%;
+	/*line-height: 0.4em;*/
+}
+h3{
+	font-size: 2.3em;
+	padding-top: 2%;
+}
+h6{
+
+	font-size: 4.5em;
+	
+	padding-top: 40%;
+}
+h4{
+	font-size: 4.5em;
+	padding-top: 30%;
+	padding-bottom: 7%;
+}
+h5{
+	font-size: 2em;
+	font-weight: 300;
+	
+}
+.namepic{
+	font-weight: 300;
+	padding-bottom: 5%;
+	font-size: 3em;
+}
 	
 }
 
@@ -66,7 +161,9 @@
 		position: fixed; 
 		width:100%;
 		z-index: 2;
+		font-family: 'Helvetica', 'Open Sans', sans-serif;
 	}
+	
 }
 
 
@@ -76,50 +173,36 @@ body {
 	color: white;
 	padding-bottom: 5%;
 }
-.intro{
-	text-align: right;
+
+.homepic{
+	padding-bottom: 15%;
 }
-h1{
-	font-size: 8em;
-	/*font-family: 'Droid Serif', serif;*/
-	padding-top: 2.5em;
-	
-}
+
+
 .reduce{
 	margin-top: -30%;
 }
-h2{
-	margin-top: -30px;
-	font-size: 6.5em;
-	/*line-height: 0.4em;*/
-}
-h3{
-	font-size: 2.8em;
-	padding-top: 2%;
-}
-h4{
-	font-size: 6.5em;
-	padding-top: 50%;
-	padding-bottom: 7%;
-}
-h5{
-	font-size: 2em;
-	
-}
+
+
+
 .pic{
 	padding-top: 1%;
 	padding-bottom: 2%;
+	margin-left: 3%;
 }
 .name{
-	font-size: 3em;
+	font-size: 3.5em;
 	
-	padding-top: 20%;
+	padding-top: 10%;
 	padding-bottom: 4%;
 }
 img{
 	
 	border-style: solid;
     border-width: 5px;
+}
+.port{
+	margin-top:5%;
 }
 a:hover{
 	color: #fee17c;

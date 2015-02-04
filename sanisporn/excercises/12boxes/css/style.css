@@ -1,0 +1,96 @@
+.b1{
+  height: 30px;
+  width: 30px;
+  background-color:violet;
+  position: absolute;
+  left:300px;
+  top:160px;
+}
+.b2{
+  height: 40px;
+  width: 30px;
+  background-color:violet;
+  position: absolute;
+  left:190px;
+  top:10px;
+}
+.b3{
+  height: 30px;
+  width: 30px;
+  background-color:violet;
+  position: absolute;
+  left:100px;
+  top:150px;
+}
+.b4{
+  height: 60px;
+  width: 20px;
+  background-color:violet;
+  position: absolute;
+  left:10px;
+  top:190px;
+}
+.b5{
+  height: 80px;
+  width: 9px;
+  background-color:violet;
+  position: absolute;
+  left:190px;
+  top:150px;
+}
+.b6{
+  height: 40px;
+  width: 30px;
+  background-color:violet;
+  position: absolute;
+  left:40px;
+  top:230px;
+}
+.b7{
+  height: 50px;
+  width: 9px;
+  background-color:violet;
+  position: absolute;
+  left:0px;
+  top:150px;
+}
+.b8{
+  height: 8px;
+  width: 90px;
+  background-color:violet;
+  position: absolute;
+  left:20px;
+  top:110px;
+}
+.b9{
+  height: 50px;
+  width: 56px;
+  background-color:violet;
+  position: absolute;
+  left:10px;
+  top:20px;
+}
+.b10{
+  height: 20px;
+  width: 23px;
+  background-color:violet;
+  position: absolute;
+  left:20px;
+  top:150px;
+}
+.b11{
+  height: 20px;
+  width: 57px;
+  background-color:violet;
+  position: absolute;
+  left:200px;
+  top:130px;
+}
+.b12{
+  height: 50px;
+  width: 57px;
+  background-color:violet;
+  position: absolute;
+  left:280px;
+  top:100px;
+}

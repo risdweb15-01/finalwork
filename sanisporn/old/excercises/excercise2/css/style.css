@@ -1,0 +1,27 @@
+body {
+	background-color: pink;
+}
+
+p {
+    font-family: Arial;
+    color:blue;
+
+            }
+#hello {
+	background-color: purple;
+	width: 300px;
+	height: 300px;
+}
+
+.bye{
+	background-color: red;
+	font-family: "Georgia", serif;
+	width: 600px;
+	height: 200px;
+}
+.bye p {
+	color:white;
+}
+p.whee {
+	color: orange;
+}

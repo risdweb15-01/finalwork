@@ -1,0 +1,157 @@
+body{
+  background-color: #16488d;
+}
+.tophead{
+  background-color: #16488d;
+  width: 1000px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.head{
+  font-family: 'Droid Serif', serif;
+  
+  color: white;
+  font-size: 60px; 
+  vertical-align: bottom;
+  margin-top:20px;
+  float:left;
+  
+}
+.intro-{
+  background-color: #4d6bb3;
+  width: 100%;
+  height: 40px;
+}
+.intext{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-size:21.5px;
+  margin: 0px auto 0px auto;
+  width: 1000px;
+  height:40px;
+  padding: 5px;
+}
+.intro{
+  background-color: #589cd4;
+  width: 100%;
+  height: 60px;
+  
+}
+.bottom{
+  float:left;
+  position: block;
+  clear:both;
+  margin-top: 50px;
+  
+}
+.bottom2{
+  width:100%
+  height: 150px;
+  background-color: #16488d;
+  position:block;
+  float:left;
+  clear:both;
+  padding-bottom: 50px;
+}
+.boxcircle{
+  width: 1000px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+  
+.circle{
+  background-color: #fbaf45;
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 10px solid #ffdb54;
+  float: right;
+  margin: -110px 40px 20px 20px;
+  z-index:15;
+  overflow: visible;
+  background-image: url("http://images.theage.com.au/2014/02/28/5214578/a1gregwindnarrow_20140228195450805233-300x0.jpg");
+}
+.middle{
+  width: 1000px;
+  height: 4300px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro2{
+  font-family: 'Roboto Slab', serif;
+  font-size:18px;
+  width: 900px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #2e5f93;
+}
+.question{
+  font-family: 'Roboto Condensed', sans-serif; /*'Vollkorn', serif;*/
+  color:white; 
+  padding: 20px 20px 35px 20px;
+  text-align: center;
+  
+  font-size: 18px;
+  font-style: italic;
+  background-color: #ff9933; /*f79b21;f7a021; f29a51; f28a2c; f4b251; f2d49e; f4e49d;f3742f;*/
+  border-radius: 10px;
+  width: 270px;
+  height: 100px;
+  position:absolute;
+  clear:both;
+  top: -10px;
+}
+.answer{
+  font-family: 'Cambria';
+  font-size: 16.5px;
+  background-color: #bae5d8;/*a5d6af  edd8a2  ffe780-yellow  a1dbe4-blue; */
+  height: 110px;
+  line-height: 20px;
+  width:600px;
+  position:relative;
+  font-style:normal;
+  padding: 15px 20px 10px 20px;
+  color: #205653;
+  margin-top: 40px;
+}
+.answerleft{
+  float: left;
+  text-align: right;
+}
+.answerright{
+  float: right;
+  
+}
+.questionleft{
+  left: -300px;
+}
+.questionright{
+  right: -300px;
+}
+
+.big{
+  width: 1000px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img2{
+  margin: 20px auto 50px auto;
+  width: 600px;
+  height: 387px;
+  clear: both;
+}
+.img2 img{
+  margin: 40px 0 40px 0;
+  width: 620px;
+  height: 387px;
+
+}

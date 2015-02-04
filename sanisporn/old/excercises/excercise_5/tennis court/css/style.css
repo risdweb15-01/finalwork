@@ -1,0 +1,32 @@
+#container{
+	width:2030px;
+	height:2030px;
+	
+	margin: auto;
+}
+.boxmodel {
+	
+	width:400px;
+	height:1000px;
+	background-color: red;
+	float: left;
+	margin:2px;
+	
+
+}
+.boxmodel2 {
+	
+	width:1197px;
+	height:447px;
+	background-color: red;
+	float: left;
+	margin:2px;
+}
+.boxmodel3 {
+	
+	width:597px;
+	height:547px;
+	background-color: red;
+	float: left;
+	margin:2px;
+}
