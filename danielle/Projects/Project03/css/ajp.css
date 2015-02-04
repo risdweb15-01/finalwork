@@ -73,8 +73,8 @@ background:none;
 .img-container2{
   flex-wrap:wrap;
   position:relative;
-  height:100px;
-  width:100px;
+  height:150px;
+  width:150px;
   z-index:5;
   top: 20px;
  left:20px;
@@ -95,6 +95,31 @@ background:none;
     /* For IE8 and earlier */
 }
 
+
+.img-container6{
+  flex-wrap:wrap;
+  position:relative;
+  height:100px;
+  width:100px;
+  z-index:5;
+ 
+ left:20px;
+  border-radius: 100%;
+  clear:both;
+   
+}
+
+
+.img-container6 img{
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.img-container6 img:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40); 
+    transition:4s;
+    /* For IE8 and earlier */
+}
 .img-container4 img{
     opacity: 1;
     filter: alpha(opacity=100); /* For IE8 and earlier */
