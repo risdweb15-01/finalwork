@@ -1,0 +1,17 @@
+
+#logoalign {
+	height: 175px;
+	width: 1150px;
+	margin-left: 125px;
+	margin-top: 228px
+}
+.fixedlogo {
+	position: relative;
+	height: 175px;
+	width: 136px;
+}
+#logo {
+	position: fixed;
+	height: 175px;
+	width: 136px;
+}

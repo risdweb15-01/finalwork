@@ -1,0 +1,131 @@
+body {
+	background-color: #ffe3d9
+
+}
+#jlfashion {
+	height: 585px;
+	width: 450px;
+	float: left;
+}
+h1 {
+	position: fixed;
+	font-size: 72px;
+	font-family: Playfair Display, serif;
+	text-align: right;
+	margin-right: 20px;
+}
+#box {
+	height: 400px;
+	width: 650px;
+	float: right;
+}
+#qandabox {
+	background-color: #a3a3a3;
+	height: 1350px;
+	width:880px;
+	float: right;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px
+}
+p {
+	font-family: Playfair Display, serif;
+	font-size: 16px
+}
+#hover {
+	float: right;
+}
+.answers {
+	color: #a3a3a3;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.answers:hover {
+	color: white;
+}
+#order {
+	float: left;
+}
+#block {
+	width: 500px;
+	float: left;
+}
+#block2 {
+	width: 550px;
+	float: right;
+}
+#blockquote {
+	width: 300px;
+	background-color: #ffe3d9;
+	color: black;
+	font-size: 20px;
+	font-family: Playfair Display;
+	font-style: italic;
+	padding: 5px;
+	margin-right: 50px;
+	margin-top: 30px;
+	float: right;
+}
+#blockquote2 {
+	width: 300px;
+	background-color: #ffe3d9;
+	color: black;
+	font-size: 20px;
+	font-family: Playfair Display;
+	font-style: italic;
+	padding: 10px;
+	margin-top: 100px;
+	float: left;
+}
+#order2 {
+	float: left;
+}
+#sidebox {
+	background-color: white;
+	height: 1350px;
+	width: 445px;
+	margin-top: 5px;
+	float: right;
+}
+#oscar {
+	position: relative;
+	width: 345px;
+	height:204px;
+	margin: 10px;
+	padding: 2px;
+	border: 2px dashed #a3a3a3;
+}
+#golden {
+	position: relative;
+	width:228px;
+	height: 352px;
+	margin: 10px;
+	padding: 2px;
+	border: 2px dashed #a3a3a3;
+}
+#coat {
+	position: relative;
+	width: 267px;
+	height: 360px;
+	margin: 10px;
+	padding: 2px;
+	border: 2px dashed #a3a3a3;
+}
+h4 {
+	font-family: Playfair Display, serif;
+	margin-left: 10px;
+	font-style: italic;
+	line-height: 5px
+}
+.caption {
+	text-align: center;
+	line-height: 10px
+}
+
+a:link {
+	color: #ffc600;
+}
+
+a:visited { 
+	color: #72ff00; 
+}

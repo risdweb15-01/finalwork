@@ -1,0 +1,40 @@
+#container {
+	display: flex; 
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+#image {
+	margin-left: 16.5%;
+	width: 49.5%
+}
+.shape {
+	width: 16.5%;
+}
+.y {
+	margin-left: 16.5%
+}
+.des {
+	margin-top: -36.5%
+}
+#menu {
+	float: right;
+	margin-left: 16%;
+	width: 16.5%;
+	background-size: 100%;
+	background-image: url("menu.png");
+	background-repeat: no-repeat;
+	font-family: Raleway;
+	font-size: 24px
+}
+a {
+	text-decoration: none;
+	color: #fcee21
+}
+ul {
+	font-size: 100%;
+	margin-left: -5%;
+	list-style-type: none;
+}
+#main {
+	color: white;
+}

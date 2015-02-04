@@ -1,0 +1,38 @@
+body {
+	background-position: center;
+	background-color: #d8d8d8;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-image: url("lib.jpg");
+}
+#container {
+	display: flex; 
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+.shape {
+	width: 16.5%;
+}
+.y {
+	margin-left: 16.5%
+}
+#menu {
+	float: right;
+	margin-left: 16%;
+	width: 16.5%;
+	background-size: 100%;
+	background-image: url("menu.png");
+	background-repeat: no-repeat;
+	font-family: Raleway;
+	font-size: 24px
+}
+a {
+	text-decoration: none;
+	color: #fcee21
+}
+ul {
+	list-style-type: none;
+}
+#main {
+	color: white;
+}

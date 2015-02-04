@@ -1,0 +1,19 @@
+.boxmodel {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	float: left;
+	}
+.boxmodel2 {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+#container {
+	height: 800px;
+	width: 800px;
+}
+}
