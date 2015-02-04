@@ -32,6 +32,7 @@ padding-left: 5%;
   background-color: #e94e4e;
 }
 
+
 .yellowborder{
   width: 100%;
   height: 20px;
@@ -95,6 +96,23 @@ padding-left: 5%;
 }
 
 
+.container .shorter{
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+
 
 
 .container section:nth-child(1) .image {
@@ -104,15 +122,18 @@ padding-left: 5%;
   background-color: #fef5e1;
 }
 .container section:nth-child(3) .image {
-  background-color:#2ebfc8;
+  background-image: url(file:///Users/HannaOh/Documents/Web%20Design/finalwork/hanna/projects/project%203/img/background3-01.png);
 }
 .container section:nth-child(4) .image {
     background-color:#e94e4e;
 }
 .container section:nth-child(5) .image {
-  background-color:#2ebfc8;
+ background-image: url(file:///Users/HannaOh/Documents/Web%20Design/finalwork/hanna/projects/project%203/img/background4-01.png);
 }
 .container section:nth-child(6) .image {
+  background-color:#2ebfc8;
+}
+.container section:nth-child(7) .image {
   background-color: #474747;
 }
 .container section .image {
@@ -234,7 +255,7 @@ h2{
   position: relative;
 }
 
-.q{
+/*.q{
   width: 45px;
   height: 30px;
   opacity: 0.5;
@@ -248,18 +269,31 @@ h2{
   opacity: 0.5;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
 .blue{
 color: white;
-text-align: center;
+font-family: Avenir;
+  opacity: 0.7;
+  font-size: 30px;
+  font-weight: bold;
+
 }
 
 .people{
   font-family: Avenir;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
-  color: rgba(250,250,250,0.9);
+  color: rgba(250,250,250,0.6);
+  text-align:center;
+}
+
+.big{
+ color: white;
+ font-family: Avenir;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .container section .stuff {
@@ -302,11 +336,12 @@ text-align: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+
   align-items: center;
   text-align: center;
   z-index: 10;
   color: gray;
-  margin: 0 auto;
+  margin:  0 auto;
   font-size: 18px;
   position: relative;
 }
@@ -359,6 +394,10 @@ h5{
   z-index: 10;
   position:relative;
   margin: auto;
+  top:0px;
+  -webkit-align-items: center;
+  -ms-flex-align-items: center;
+  align-items: center;
 
 }
 
@@ -487,12 +526,7 @@ h5{
   margin: 30px 0;
 }
 
-.container section .stuff2:before, .container section .stuff2:after {
-  width: 100%;
-  height: 1px;
-  display: block;
-  background-color: white;
-  content: "";
-  margin: 13px 0;
+@media screen and (max-width: 700px){
+  put stuff from html in here
 }
 
