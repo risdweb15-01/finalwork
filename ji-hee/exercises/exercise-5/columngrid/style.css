@@ -1,0 +1,50 @@
+#container{
+	width : 640px;
+	font-family: 'Oswald', sans-serif;
+}
+
+#header{
+	width: 620px;
+	height: 100px;
+	margin: :5px;
+	background-color: red;
+
+}
+
+#secondheader {
+	background-color: red;
+	width: 620px;
+	height: 30px;
+	margin: :5px;
+}
+
+#body1 {
+	background-color: red;
+	width: 200px;
+	height: 700px;
+	margin: :5px;
+	float: left;
+}
+
+#body2 {
+	background-color: red;
+	width: 200px;
+	height: 700px;
+	margin: :5px;
+	float: left;
+}
+
+#body3 {
+	background-color: red;
+	width: 200px;
+	height: 700px;
+	margin: :5px;
+	float: left;
+}
+
+#footer {
+	background-color: red;
+	width: 200px;
+	height: 700px;
+	margin: :5px;
+}
