@@ -2,8 +2,7 @@
     background-color: red;
     width:30px;
     height:180px;
-    position:absolute;
+    position:relative;
     float:left;
     margin-right: 10px;
-
 }
